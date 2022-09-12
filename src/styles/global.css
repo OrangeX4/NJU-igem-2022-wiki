@@ -1,0 +1,81 @@
+/* 文章样式 css */
+
+.nav-space {
+  height: 50px;
+}
+
+/* 居中 */
+h1,
+h2 {
+  text-align: center;
+}
+
+
+/* Footer css */
+
+.igem-footer {
+  margin-top: 100px;
+}
+
+
+/* 回到顶部 css */
+
+.to-top {
+  opacity: 1;
+  display: inline-block;
+  padding: 1em;
+  position: fixed;
+  bottom: 1em;
+  right: 1em
+}
+
+.to-top .paper-btn {
+  padding: .6em 1em;
+  border-top-left-radius: 185px 160px;
+  border-top-right-radius: 200px 195px;
+  border-bottom-right-radius: 160px 195px;
+  border-bottom-left-radius: 185px 190px
+}
+
+
+/* 下拉菜单部分 css */
+
+ul.inline li.dropdown {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+ul.inline li.dropdown div.dropdown-title {
+  cursor: pointer;
+  margin: 0;
+  padding: 0 10px;
+}
+
+ul.inline li.dropdown div.dropdown-title::after {
+  content: '▼';
+  font-size: 0.8rem;
+  padding: 0 2px;
+  vertical-align: middle;
+}
+
+ul.inline li.dropdown ul.dropdown-menu {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  position: absolute;
+}
+
+ul.inline li.dropdown ul.dropdown-menu li {
+  margin: 0 15px 10px 30px;
+}
+
+ul.inline li.dropdown ul.dropdown-menu li a {
+  font-size: 1.1rem;
+}
+
+ul.inline li.dropdown div.dropdown-title:hover+ul.dropdown-menu,
+ul.inline li.dropdown ul.dropdown-menu:hover {
+  display: flex;
+}
