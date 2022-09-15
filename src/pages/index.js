@@ -22,15 +22,20 @@ A paragraph with *emphasis* and **strong importance**.
 > A block quote with ~strikethrough~ and a URL: https://reactjs.org.
 `
 
-export default () => (
-  <div>
-    <Nav />
-    <div class="nav-space" />
-    <div class="container container-sm margin-bottom-large">
-      <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
+function IndexPage() {
+  return (
+    <div>
+      <Nav />
+      <div class="nav-space" />
+      
+      <div class="container container-sm margin-bottom-large">
+        <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
+      </div>
+      
+      <Footer />
+      <Top />
     </div>
-    
-    <Footer />
-    <Top />
-  </div>
-)
+  )
+}
+
+export default IndexPage

@@ -1,7 +1,8 @@
 import React from "react"
 import "papercss"
 
-export default () => (
+function Nav() {
+  return (
   <nav className="border fixed split-nav">
     <div className="nav-brand">
       <h3><a href="#">NJU-China 2022</a></h3>
@@ -39,4 +40,7 @@ export default () => (
       <li><a href="#">Parts</a></li>
     </ul>
   </nav>
-)
+  )
+}
+
+export default Nav

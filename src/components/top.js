@@ -1,8 +1,12 @@
 import React from "react"
 import "papercss"
 
-export default () => (
-  <div class="to-top">
-    <a href="#top" class="paper-btn margin">^</a>
-  </div>
-)
+function Top() {
+  return (
+    <div class="to-top">
+      <a href="#top" class="paper-btn margin">^</a>
+    </div>
+  )
+}
+
+export default Top
