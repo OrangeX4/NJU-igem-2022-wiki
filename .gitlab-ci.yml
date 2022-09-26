@@ -4,6 +4,7 @@ pages:
   stage: build
   script:
     - npm install
+    - rm ./public -rf
     - npm run build
   artifacts:
     paths:
