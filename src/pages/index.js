@@ -26,9 +26,9 @@ function IndexPage() {
   return (
     <div>
       <Nav />
-      <div class="nav-space" />
+      <div className="nav-space" />
       
-      <div class="container container-sm margin-bottom-large">
+      <div className="container container-sm margin-bottom-large">
         <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
       </div>
       
