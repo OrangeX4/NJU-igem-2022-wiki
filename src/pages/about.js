@@ -8,7 +8,6 @@ import Top from "../components/top"
 function AboutPage() {
   return (
     <div>
-      <Head />
       <Nav />
 
       <p>Such wow. Very React.</p>
@@ -18,5 +17,7 @@ function AboutPage() {
     </div>
   )
 }
+
+export { Head } from "../components/head"
 
 export default AboutPage

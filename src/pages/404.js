@@ -8,7 +8,6 @@ import Top from "../components/top"
 function NoFoundPage() {
   return (
     <div>
-      <Head />
       <Nav />
 
       <h1>404</h1>
@@ -18,5 +17,7 @@ function NoFoundPage() {
     </div>
   )
 }
+
+export { Head } from "../components/head"
 
 export default NoFoundPage
