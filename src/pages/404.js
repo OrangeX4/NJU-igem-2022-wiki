@@ -1,6 +1,5 @@
 import React from "react"
 
-import Head from "../components/head"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 import Top from "../components/top"
@@ -18,6 +17,5 @@ function NoFoundPage() {
   )
 }
 
-export { Head } from "../components/head"
 
 export default NoFoundPage

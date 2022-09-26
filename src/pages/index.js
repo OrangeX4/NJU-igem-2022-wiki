@@ -38,6 +38,4 @@ function IndexPage() {
   )
 }
 
-export { Head } from "../components/head"
-
 export default IndexPage
