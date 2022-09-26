@@ -6,19 +6,21 @@
   "license": "0BSD",
   "homepage": "https://2022.igem.wiki/nju-china/",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "gatsby": "^4.22.1",
+    "gatsby-plugin-react-helmet": "^5.23.0",
     "papercss": "^1.8.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
     "react-markdown": "^8.0.3",
     "remark-gfm": "^3.0.1"
   },
