@@ -2,6 +2,7 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
+import Head from "../components/head"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 import Top from "../components/top"
@@ -25,6 +26,7 @@ A paragraph with *emphasis* and **strong importance**.
 function IndexPage() {
   return (
     <div>
+      <Head />
       <Nav />
       <div class="nav-space" />
       
