@@ -3,8 +3,8 @@ import "papercss"
 
 function Top() {
   return (
-    <div class="to-top">
-      <a href="#top" class="paper-btn margin">^</a>
+    <div className="to-top">
+      <a href="#top" className="paper-btn margin">^</a>
     </div>
   )
 }
