@@ -2,7 +2,6 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-import Icon from "../components/icon"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 import Top from "../components/top"
@@ -26,11 +25,10 @@ A paragraph with *emphasis* and **strong importance**.
 function IndexPage() {
   return (
     <div>
-      <Icon />
       <Nav />
-      <div className="nav-space" />
+      <div class="nav-space" />
       
-      <div className="container container-sm margin-bottom-large">
+      <div class="container container-sm margin-bottom-large">
         <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
       </div>
       
@@ -39,5 +37,7 @@ function IndexPage() {
     </div>
   )
 }
+
+export { Head } from "../components/head"
 
 export default IndexPage

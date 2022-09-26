@@ -1,6 +1,6 @@
 import React from "react"
 
-import Icon from "../components/icon"
+import Head from "../components/head"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 import Top from "../components/top"
@@ -8,7 +8,6 @@ import Top from "../components/top"
 function NoFoundPage() {
   return (
     <div>
-      <Icon />
       <Nav />
 
       <h1>404</h1>
@@ -18,5 +17,7 @@ function NoFoundPage() {
     </div>
   )
 }
+
+export { Head } from "../components/head"
 
 export default NoFoundPage
