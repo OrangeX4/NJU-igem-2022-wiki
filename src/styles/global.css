@@ -1,8 +1,118 @@
+/* Home */
+
+.home-container {
+  overflow-x: hidden;
+}
+
+.home-container>.header {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  min-height: 93.6vh;
+  background: url("https://static.igem.wiki/teams/4173/wiki/wiki/background1.png");
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-container>.header>img {
+  border: none;
+  position: absolute;
+}
+
+.home-container>.header>.icon {
+  width: 20%;
+  top: 10%;
+  left: 20%;
+}
+
+.home-container>.header>.title {
+  width: 40%;
+  top: 15%;
+  right: 20%;
+}
+.home-container>.header>.description {
+  width: 40%;
+  top: 30%;
+  right: 20%;
+}
+
+.home-container>.header>.hairball {
+  left: 15%;
+  bottom: 18%;
+}
+
+.home-container>.header>.planet {
+  max-width: 200%;
+  width: 200%;
+  left: -50%;
+  bottom: -115%;
+}
+
+.home-content {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: block;
+  /* background: url("https://static.igem.wiki/teams/4173/wiki/wiki/background2.png"); */
+  /* background-size: cover; */
+  border: none;
+  background: linear-gradient(0deg, rgba(231, 234, 245, 1) 0%, rgba(252, 232, 241, 1) 100%);
+}
+
+.home-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 10rem 0;
+}
+
+.home-row:nth-child(odd) {
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.home-row:nth-child(even) {
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.home-image,
+.home-text {
+  width: max(30%, 400px);
+  text-align: center;
+}
+
+.home-text {
+  border: 5px solid #9daad6;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-text>h1 {
+  font-size: 2rem;
+  width: 100%;
+  padding: 2.5rem 0;
+}
+
+.home-text>p {
+  font-size: 1rem;
+  width: 100%;
+  padding: 2.5rem 0;
+}
+
+
+
 /* 文章样式 css */
 
 .nav-space {
   height: 50px;
 }
+
 
 /* 居中 */
 h1,
