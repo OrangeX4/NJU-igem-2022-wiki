@@ -54,8 +54,7 @@ function IndexPage() {
         <div className="home-content">
           <div className="home-row">
             <Billboard effect={'slide-right'}>
-              <p>Kilotonnes of fishing nets get lost each year. These nets still have the capacity to catch fish and get stuck on the seafloor
-                destroying corals and marine life. Apart from that, these nets also pollute the ocean having made out of plastic.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
             </Billboard>
             <div data-aos='fade-down-left' className="home-image">
               <p>Empty</p>
@@ -63,8 +62,7 @@ function IndexPage() {
           </div>
           <div className="home-row">
             <Billboard effect={'slide-left'}>
-              <p>Kilotonnes of fishing nets get lost each year. These nets still have the capacity to catch fish and get stuck on the seafloor
-                destroying corals and marine life. Apart from that, these nets also pollute the ocean having made out of plastic.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
             </Billboard>
             <div data-aos='fade-down-left' className="home-image">
               <p>Empty</p>
