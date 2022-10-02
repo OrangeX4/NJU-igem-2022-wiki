@@ -1,43 +1,45 @@
 import React from "react"
+import { Link } from "gatsby"
 import "papercss"
 
 function Nav() {
   return (
   <nav className="border fixed split-nav">
     <div className="nav-brand">
-      <h3><a href="#">NJU-China 2022</a></h3>
+      <h3><Link to="/">NJU-China 2022</Link></h3>
     </div>
     <ul className="inline">
       <li className="dropdown">
         <div className="dropdown-title">Project</div>
         <ul className="dropdown-menu border border-4">
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link to="/description/">Description</Link></li>
+          <li><Link to="/">Github</Link></li>
+          <li><Link to="/">Contact</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Human Practices</div>
         <ul className="dropdown-menu border border-4">
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link to="/">Github</Link></li>
+          <li><Link to="/">Contact</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Notebook</div>
         <ul className="dropdown-menu border border-4">
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Protocol</a></li>
+          <li><Link to="/">Calendar</Link></li>
+          <li><Link to="/">Protocol</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Team</div>
         <ul className="dropdown-menu border border-4">
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link to="/">Github</Link></li>
+          <li><Link to="/">Contact</Link></li>
         </ul>
       </li>
-      <li><a href="#">Achievements</a></li>
-      <li><a href="#">Parts</a></li>
+      <li><Link to="/">Achievements</Link></li>
+      <li><Link to="/">Parts</Link></li>
     </ul>
   </nav>
   )

@@ -40,14 +40,12 @@
 
 .home-container>.header>.hairball {
   left: 15%;
-  bottom: 18%;
+  bottom: 15%;
 }
 
 .home-container>.header>.planet {
-  max-width: 200%;
-  width: 200%;
-  left: -50%;
-  bottom: -115%;
+  width: 100%;
+  bottom: 0;
 }
 
 .home-content {
@@ -139,12 +137,9 @@ h2 {
   right: 1em
 }
 
-.to-top .paper-btn {
-  padding: .6em 1em;
-  border-top-left-radius: 185px 160px;
-  border-top-right-radius: 200px 195px;
-  border-bottom-right-radius: 160px 195px;
-  border-bottom-left-radius: 185px 190px
+.top-btn {
+  border: none;
+  width: 120px;
 }
 
 

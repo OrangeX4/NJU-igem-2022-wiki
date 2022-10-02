@@ -47,9 +47,10 @@ function IndexPage() {
             src='https://static.igem.wiki/teams/4173/wiki/wiki/hairball.gif' alt='logo animation' />
           <img data-aos="slide-up"
             data-aos-delay="50"
+            data-aos-offset="-100"
             data-aos-duration="2000"
             className='planet'
-            src='https://static.igem.wiki/teams/4173/wiki/wiki/planet2.png' alt='logo animation' />
+            src='https://static.igem.wiki/teams/4173/wiki/wiki/planet3.png' alt='logo animation' />
         </div>
         <div className="home-content">
           <div className="home-row">

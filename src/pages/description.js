@@ -23,7 +23,7 @@ A paragraph with *emphasis* and **strong importance**.
 > A block quote with ~strikethrough~ and a URL: https://reactjs.org.
 `
 
-function AboutPage() {
+function DescriptionPage() {
   return (
     <div>
       <Icon />
@@ -40,4 +40,4 @@ function AboutPage() {
   )
 }
 
-export default AboutPage
+export default DescriptionPage
