@@ -1,11 +1,11 @@
 import React, { useEffect } from "react"
+import { Link } from "gatsby"
 import AOS from "aos"
 
 import Icon from "../components/icon"
 import Nav from "../components/nav"
 import Footer from "../components/footer"
 import Top from "../components/top"
-import Billboard from "../components/billboard"
 
 import "papercss"
 import 'aos/dist/aos.css'
@@ -54,19 +54,53 @@ function IndexPage() {
         </div>
         <div className="home-content">
           <div className="home-row">
-            <Billboard effect={'slide-right'}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
-            </Billboard>
-            <div data-aos='fade-down-left' className="home-image">
-              <p>Empty</p>
+            <div data-aos="slide-right" data-aos-duration="3000" className='home-text'>
+              <div className='home-box'>
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+              </div>
+              <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor2.png' alt='supervisor'></img>
             </div>
           </div>
           <div className="home-row">
-            <Billboard effect={'slide-left'}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
-            </Billboard>
-            <div data-aos='fade-down-left' className="home-image">
-              <p>Empty</p>
+            <div data-aos="slide-left" data-aos-duration="3000" className='home-text'>
+              <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor.png' alt='supervisor'></img>
+              <div className='home-box'>
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+              </div>
+            </div>
+          </div>
+          <div className="home-row">
+            <div data-aos="slide-right" data-aos-duration="3000" className='home-text'>
+              <div className='home-box'>
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+              </div>
+              <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor2.png' alt='supervisor'></img>
+            </div>
+          </div>
+          <div className="home-row">
+            <div data-aos="slide-left" data-aos-duration="3000" className='home-text'>
+              <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor.png' alt='supervisor'></img>
+              <div className='home-box'>
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+              </div>
+            </div>
+          </div>
+          <div className="home-row">
+            <iframe title="NJU-China: No title (2022) - 10-second Highlight [English]" width="560" height="315" src="https://video.igem.org/videos/embed/503ed26a-210c-47c4-8180-d4f53b0ea5ec" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+          </div>
+          <div className="home-row">
+            <div>
+              <h3>Quick Link:</h3>
+              <div>
+                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
+                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
+                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
+                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
+              </div>
             </div>
           </div>
         </div>
