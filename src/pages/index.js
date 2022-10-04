@@ -42,6 +42,7 @@ function IndexPage() {
             src='https://static.igem.wiki/teams/4173/wiki/wiki/description.png' alt='logo animation' />
           <img data-aos="fade-up"
             data-aos-delay="500"
+            data-aos-offset="-100"
             data-aos-duration="2000"
             className='hairball'
             src='https://static.igem.wiki/teams/4173/wiki/wiki/hairball.gif' alt='logo animation' />
