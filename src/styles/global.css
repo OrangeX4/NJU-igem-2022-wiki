@@ -1,4 +1,27 @@
-@import url('http://fonts.cdnfonts.com/css/tenorite');
+@font-face {
+  font-family: 'Tenorite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tenorite'), url('https://static.igem.wiki/teams/4173/wiki/wiki/29595851800.woff') format('woff');
+}
+@font-face {
+  font-family: 'Tenorite';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Tenorite'), url('https://static.igem.wiki/teams/4173/wiki/wiki/26622973498.woff') format('woff');
+}
+@font-face {
+  font-family: 'Tenorite';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Tenorite'), url('https://static.igem.wiki/teams/4173/wiki/wiki/27733932592.woff') format('woff');
+}
+@font-face {
+  font-family: 'Tenorite';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Tenorite'), url('https://static.igem.wiki/teams/4173/wiki/wiki/26512206606.woff') format('woff');
+}
 
 /* Home */
 
