@@ -91,7 +91,7 @@ function IndexPage() {
             </div>
           </div>
           <div className="home-row">
-            <iframe title="NJU-China: No title (2022) - 10-second Highlight [English]" width="800" height="450" src="https://video.igem.org/videos/embed/503ed26a-210c-47c4-8180-d4f53b0ea5ec" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+            <iframe title="NJU-China: Hairy-Scary Monster (2022) - Project Promotion [English]" width="800" height="450" src="https://video.igem.org/videos/embed/fe52e96a-7144-4d93-8b1e-e744a4899e4d" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
           </div>
           <div className="home-row">
             <div>

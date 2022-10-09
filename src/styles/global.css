@@ -119,8 +119,39 @@
 
 /* 文章样式 css */
 
+.article-container {
+  background: linear-gradient(0deg, rgba(231, 234, 245, 1) 0%, rgba(252, 232, 241, 1) 100%);
+}
+
+/* h1, h2, h3, h4, p {
+  font-family: Montserrat, sans-serif !important;
+} */
+
+.article-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: 2rem 0;
+  background: url("https://static.igem.wiki/teams/4173/wiki/wiki/background3.jpg");
+}
+
+.article-title>img {
+  border: none;
+  height: 150px;
+  margin-top: -35px;
+  position: absolute;
+}
+
 .nav-space {
-  height: 50px;
+  height: 60px;
+}
+
+.article-container > div.container.container-md.margin-bottom-large > p > img {
+  border: none;
+  border-radius: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
 }
 
 
@@ -135,6 +166,7 @@ h2 {
 
 .igem-footer {
   margin-top: 100px;
+  background-color: white;
 }
 
 

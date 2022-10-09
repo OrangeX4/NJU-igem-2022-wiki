@@ -12,25 +12,25 @@ function Nav() {
       <li className="dropdown">
         <div className="dropdown-title">Project</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/description/">Description</Link></li>
+          <li><Link to="/project/description/">Description</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Human Practices</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/description/">Description</Link></li>
+          <li><Link to="/project/description/">Description</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Notebook</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/description/">Description</Link></li>
+          <li><Link to="/project/description/">Description</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Team</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/description/">Description</Link></li>
+          <li><Link to="/project/description/">Description</Link></li>
         </ul>
       </li>
       <li><Link to="/">Achievements</Link></li>
