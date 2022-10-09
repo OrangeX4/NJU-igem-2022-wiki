@@ -21,7 +21,7 @@ function IndexPage() {
     <div>
       <Icon />
       <Nav />
-      <div className="nav-space" />
+      {/* <div className="nav-space" /> */}
 
       <div className='home-container'>
         <div className='header'>

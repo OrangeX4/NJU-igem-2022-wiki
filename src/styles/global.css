@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/tenorite');
+
 /* Home */
 
 .home-container {
@@ -9,7 +11,7 @@
   -moz-box-shadow: none;
   box-shadow: none;
   width: 100%;
-  min-height: 93.6vh;
+  min-height: 101vh;
   background: url("https://static.igem.wiki/teams/4173/wiki/wiki/background1.png");
   background-position: center;
   position: relative;
@@ -123,15 +125,29 @@
   background: linear-gradient(0deg, rgba(231, 234, 245, 1) 0%, rgba(252, 232, 241, 1) 100%);
 }
 
-/* h1, h2, h3, h4, p {
-  font-family: Montserrat, sans-serif !important;
-} */
 
+h1, h2, h3, h4 {
+  font-weight: bold !important;
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'Tenorite', sans-serif !important;
+  color: black;
+  text-align: justify;
+  font-size: 1.125rem;
+}
+
+h1, h2, h4, p {
+  line-height: 1.625;
+}
+  
 .article-title {
+  font-family: 'Futura PT',-apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Arial','Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji' !important;
   text-align: center;
   font-size: 4rem;
   font-weight: bolder;
   padding: 2rem 0;
+  padding-top: 100px;
   background: url("https://static.igem.wiki/teams/4173/wiki/wiki/background3.jpg");
 }
 
@@ -143,7 +159,7 @@
 }
 
 .nav-space {
-  height: 60px;
+  height: 68px;
 }
 
 .article-container > div.container.container-md.margin-bottom-large > p > img {
