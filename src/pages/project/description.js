@@ -1,7 +1,7 @@
 import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-
+import rehypeRaw from "rehype-raw"
 import Icon from "../../components/icon"
 import Nav from "../../components/nav"
 import Footer from "../../components/footer"
@@ -10,158 +10,117 @@ import Top from "../../components/top"
 import "papercss"
 
 
-const title = `Human Practice`
+const title = `Project`
 const markdown = `
-# Overview
+# Description
 
-## 1.	Learn more about alopecia through human practices
 
-### 1.1	Why we choose androgenic alopecia as our target
 
-In recent years, with the acceleration of people’s living rhythm and increasing work pressure, more and more people are suffering from alopecia. The population with this problem is getting younger, and youngsters are accustomed to using hair loss as a synonym for stress. Alopecia not only affects one’s appearance negatively but also causes mental problems such as anxiety and inferiority, posing a threat to one’s relationship and career. Among all types of alopecia, androgenic alopecia was the most common type. As a result, we were interested in developing a new treatment method for androgenic alopecia to help hundreds of thousands of patients regrow their hair and relieve their worries.
+## 1. Overview
 
-### 1.2	Alopecia viewed by the public and academics
+Nowadays, due to constant pressure and irregular daily routines, alopecia has become an increasing challenge for people, which can be illustrated by the following visualization of data from the database. Through these outcomes (Fig.1) of “Share of people suffering from Alopecia by gender”, “Prevalence of alopecia by age” and “Percentage of Alopecia by severity, we gained a deeper understanding of the current situation of alopecia and concluded that there is a huge demand for solutions to alopecia. Among many types of alopecia, androgenetic alopecia (AGA) is the most common form of alopecia, whose prevalence is 80% in men and 50% in women, and more and more young people are receiving AGA[1]. Alopecia not only affects one’s appearance negatively but also causes mental problems such as anxiety and inferiority, posing threat to one’s relationship and career. Unlike the other type of hair loss, and baldness, there are no very effective medications for AGA. The only medications on the market for AGA are finasteride and minoxidil, both of which have the disadvantage of being unstable and having side effects. That’s why drug companies attach great importance to the development of new drugs for the treatment of androgenetic alopecia. There are currently about 1,000 privately and publicly funded clinical studies for the development of alopecia drugs worldwide (based on [Home – ClinicalTrials.gov](https://clinicaltrials.gov/)). This year, the NJU-CHINA iGEM Team focused on the treatment of androgenic alopecia, hoping to develop an “sEV + siRNA / mRNA” transdermal drug delivery system based on large-scale sEV extraction technology. This system could be further applied to the treatment of other skin diseases apart from AGA such as acne, which we have demonstrated through a series of experiments.
 
-After we chose alopecia as our target, web crawlers were applied to learn more about people’s concerns about alopecia and related products. The first one hundred pages of keyword searching results on Weibo(a popular social platform where people posted short articles and pictures to share their lives and views) were chosen and words of the highest frequency were then counted. They constituted the word clouds that are shown below.
+![img](https://static.igem.wiki/teams/4173/wiki/project/gender.png)
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/hair-loss.png)
+**Fig.1 visualization of data of the “Share of people suffering from alopecia by gender”** 
 
-The most frequent words related to alopecia included hair, scalp, hairline, hair transplant, loss, anxiety, doctor, hair follicle, staying up late, and so on.  It could be drawn from the word cloud that a large number of people are suffering from anxiety arising from alopecia, staying up late being one of the inducers. Solutions such as hair transplant and shampoo were also discussed online.
+![img](https://static.igem.wiki/teams/4173/wiki/project/layout-1.png)
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/minoxidil.png)
+**Fig.2 “Prevalence of alopecia by age” and “Percentage of Alopecia by degree”**
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/finasteride.png)
 
-Above are the word clouds of minoxidil and finasteride, two main chemical drugs for the treatment of androgenic alopecia. It can be seen from the figures that the results and side effects of drugs were what people care about.
 
-Apart from obtaining information online, we also distributed questionnaires to the public to find out the current situation of alopecia and their urgent requirements for drugs. 
+## 2. The mechanism of androgenic alopecia
 
-According to the result of the survey below, it can be concluded that people usually heard about or learned about alopecia from the social media or via communication with others, which reflected that alopecia was a problem the public cared about.
+As is shown in Fig.3, the basic mechanism is that excessive androgen or androgen receptor expression triggers downstream pathways that lead to hair follicle atrophy, hair thinning, and finally result in hair follicle necrosis. Dermal papillary cells (DP) in hair follicle cells play an important role in androgenic alopecia. Studies have shown that upon receipt of androgen by DP, some downstream pathways are activated to release cytokines that affect the growth of epidermal cells, finally influencing hair growth.[3] There are some essential factors in this process. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/chart-where.png)
+5αR, or 5α-reductase, is a kind of reductase distributed in the cytoplasm of DP; testosterone is the main circulating androgen in the human body. 5αR converts testosterone into dihydrotestosterone, which has a strong androgen effect and binds to the androgen receptor, causing the increasing number of hair follicle stem cells to undergo apoptosis leading to the shrinkage of follicles.[4] 
 
-In terms of the types of alopecia that people knew, androgenic alopecia and alopecia areara were the two types of alopecia that people knew best, which were also the two most pravelent types of alopecia.
+Piezo1, a stress-activated ion channel on the surface of hair follicle stem cells, will be activated by the stress of follicles that is miniaturized by androgen, and cause Ca2+ influx, activating downstream caspase3 and inducing apoptosis.[5]
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/hair-loss-type.png)
+β-catenin is a necessary protein to activate Wnt downstream so that Wnt can promote cell proliferation and maintain the hair growth phase to combat androgenic alopecia. [6]
 
-When it came to the aspects that people cared about most, effectiveness and side effects stood out, which were chosen by 87% and 83% of  subjects respectively.
+![img](https://static.igem.wiki/teams/4173/wiki/project/background.png)
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/chart-effect.png)
+**Fig.3 Mechanism of androgen alopecia** (Created with BioRender.com)
 
-When asked about their acceptance if there is a new more expensive treatment method that can reach the treating effect and almost has no side effects, the average point was 3.66 while the full point was 4. This showed that most people were willing to spend more money on better drugs, which indicated the potential market of our product.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/acceptance.png)
 
-According to the pie chart below, people showed their concerns of gene therapy. Among all the aspects, safety came first, chosen by 84% of people, and was followed by effectiveness and high price. This urged us to design experiments more carefully in order to prove the safety and effect of our product.
+## 3. Current drugs and therapies for androgenic alopecia
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/gene-therapy.png)
+At present, there are three main treatments for androgenic alopecia, namely finasteride, minoxidil, and hair transplant. [7]
 
-In order to learn more about the current situation of alopecia treatment and the side effects of drugs in detail, we consulted professor Dr. Yuan, a specialist from the Second Affiliated Hospital Of Xi'an Jiaotong University. According to Dr. Yuan, the cause of alopecia varied from one to another, but most cases were caused by staying up late, which belonged to androgenic alopecia. The common treatment for male patients included minoxidil and finasteride, while female patients were treated with spironolactone and contraceptive drugs. Many people were unsatisfied with the long course of action of the drugs, taking two and a half months to show an effect. As a result, some of them turned to private hospitals for accelerated treatment processes like hair transplantation, which would set them back a huge amount of money. In addition, the defects of chemical drugs also included causing hair growth in other parts of the body, toxicity to the liver and kidney, and other sexual, physical, and psychological side effects. From the interview, we gained a deeper understanding of the defects of current drugs and the urgent demands of patients, which were enlightening for our project design.
+Among them, finasteride can inhibit 5α-reductase and prevent the conversion of testosterone to dihydrotestosterone. Dihydrotestosterone (DHT), has a more damaging effect on hair follicle cells and is largely responsible for androgenic alopecia. Minoxidil mainly promotes dermal papillary cell survival and increases hair follicle size. Hair transplant, which involves the surgical transfer of hair follicles, has been shown to treat most alopecia.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/professor-yuan.png)
+However, these existing treatment methods have some shortcomings. 
 
-### 1.3 	sEVs secreted by mesenchymal stem cells(MSC) can promote hair growth 
+As an inhibitor of 5αR, the oral drug finasteride [[AH1\]](#_msocom_1) can bring about sexual dysfunction. Because finasteride passes through the blood circulation of the whole body, it may inhibit the 5αR in other parts of the body and affect the normal function of the organism, such as erectile and ejaculatory dysfunction and loss of libido. In addition to sexual dysfunction, patients with post finasteride syndrome (PFS) also suffer from psychological discomfort. Other symptoms reported by PFS patients are a reduction in self-confidence, decreased initiative and difficulty in concentration, forgetfulness or loss of short-term memory, irritability, suicidal thoughts, anxiety, panic attack, and sleep problems. [10] These side effects can last for years and do not go away immediately after stopping the drug. At the same time, it is less effective in promoting hair growth. Finasteride stops hair loss in most men and results in partial regrowth in 66% of patients. And women are not recommended to use finasteride.
 
-While we were looking up literature for mechanisms and therapies that can treat alopecia, sEVs caught our attention. It was reported that sEVs secreted by MSC can promote hair growth[1] and some growth factors such as IGF-1 (Insulin-like growth factor-1), HGF (Hepatocyte growth factor), VEGF (Vascular endothelial growth factor), BFGF (Basic Fibroblast Growth Factor) wrapped in sEVs play a role in this process.
+The exact molecular mechanism by which Minoxidil promotes hair growth remains unclear. It was originally an antihypertensive drug for the treatment of cardiovascular disease and was found to promote hair growth before it became a specialized drug for the treatment of AGA. So people with cardiovascular disease are not allowed to use minoxidil. Minoxidil has cutaneous adverse effects, with the most common complaints being scalp pruritus, scalp scaling, and hypertrichosis. Minoxidil treatment may be followed by a temporary shedding period at the beginning, which will cause severe hair loss, some patients do not want to go through this period, and some patients do not recover effectively after hair loss. Also, hypertrichosis is reported in about one-fifth of patients with minoxidil, and although this side effect is considered by some to be manageable, it still needs to be taken seriously.[11]
 
-  ![img](https://static.igem.wiki/teams/4173/wiki/article/fcell-09-647012-g001.jpg)
+Both the two chemical drugs above have the disadvantages of unstable efficacy and more side effects.
 
-We were enlightened by the article and came up with the idea of applying sEVs containing specific molecules to the scalp to treat alopecia.  In order to  know the feasibility of this design, we interviewed Professor Jiang Xiaohong from Nanjing University, whose research interest included MSC. Professor Jiang said that we should pay attention to the transdermal efficiency of sEVs if we wanted to apply sEVs directly to the scalp. After the interview, we researched for related articles and found that sEVs couldn't penetrate through the dermis where our target cells belong[2]. As a result, we needed to know the transdermal method applied by current sEV products.
+Hair transplantation does not involve a net increase of new hair, but rather a redistribution of the patient’s existing hair from the donor zone to the recipient zone. Hair transplants can’t cure AGA, because AGA is a lifelong process and hair transplantation does not alter its progression. So the surgeon must plan the cosmetic distribution of transplanted hair so that it will always look natural.[12] In addition to the high demand for the surgeon’s skills, the expensive price and long treatment period are also disadvantages of hair transplantation.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/jiangxiaohong.jpg)
+Thus, based on the current drugs and therapies for androgenic alopecia, we attempt to use RNAi therapy to solve the above dilemma. 
 
-### 1.4 Asking bloggers about their feelings of using sEV products
 
-After we got the idea of using sEVs as the vector for RNA introduction, we searched for information related to sEVs online and learned that sEVs were now mainly applied in the aesthetic medicine industry. According to the advertisements, the sEVs in products, which were mainly extracted from adipose stem cells, can promote skin repair and regeneration, delay aging, and decrease acne and inflammation. To figure out the actual effects of these products and the transdermal method they applied, we asked bloggers and received considerable feedback. It is reflected that their skin state was improved and skin problems were alleviated after taking the shot , while the maintenance of effects required regular treatment. However, some other comments online expressed their confusion and dissatisfaction as they see little improvement. In general, though the sEV product market is far from mature, sEV products were proven to be effective, getting more and more attention in the public. Still, some customers sat on the fence since they knew little about the way sEVs worked and couldn’t distinguish between genuine and fake products, which also identified an opportunity where our educational activities should come into play. We also asked them about the way these sEV products were applied to their faces, microneedles and mesotherapy were their answers.  Based on their answers, we did researches online and found two related articles. One article applied microneedle patch made from hair-derived Keratin to promote hair regrowth [3], which indicated that microneedle could be used in the treatment of alopecia. Another article delivered sEVs via microneedle in order to treat skin disease[4], which suggested that microneedles could be applied to deliver sEVs. As a result, we decided to apply microneedle in the delivery system in order to penetrate our sEVs through the dermis.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/bloggers.png)
+## 4. Our targeted therapy by “sEV + siRNA / mRNA” transdermal drug delivery system
 
-## 2 The establishment of sEV mRNA system
+The RNA interference (RNAi) pathway regulates mRNA stability and translation in nearly all human cells. Small double-stranded RNA molecules can efficiently trigger RNAi silencing of specific genes. For drug developers, the potency and versatility of siRNAs, the prospect of suppressing genes encoding proteins that are ‘undruggable’ by classical small molecules and the potential for ‘programmable’ drugs that can be re-targeted without changing in vivo pharmacokinetics proved too enticing to ignore. August 2018 marked a new era for the field, with the US Food and Drug Administration approving Patisiran, the first RNAi-based drug. The drug is for the treatment of hereditary transthyretin amyloidosis (hATTR) with polyneuropathy.[13] However, the main target organ of the current delivery methods is the liver, and the biological toxicity is high. So, it is important to further develop metabolically stabilized RNAi triggers and conjugated ligands that can efficiently deliver siRNA to an increasing number of extrahepatic tissues with high biocompatibility and low toxicity. SEVs are secreted by cells and can encapsulate RNA and maintain their biological activity. Owning to its high biocompatibility and great internal transport range, we choose it as the ideal siRNA/mRNA delivery carrier.
 
-### 2.1 The current application of sEVs and nucleic acid drugs
+Because of the overexpressed 5αR in androgenic alopecia, we chose to **use siRNA to inhibit 5αR gene expression**, thereby attenuating androgenic alopecia without blocking the androgen's normal course of action. What’s more, according to the literature, the activation of piezo1 causes apoptosis, so we also chose to **use siRNA to inhibit the Piezo1 **gene to treat androgenic alopecia by reducing the apoptosis of hair follicle cells.
 
-Once we decided to use sEVs as the vector of our drug delivery, we hoped to learn more about the current application of sEVs. As a result, we interviewed Manager Zhao from Echo Biotech, an advanced biotechnology company focused on the research and development of  sEV related products. The manager from the company said that till now three sEV drugs had entered clinical trial, the effective constituent were protein, nucleic acid and small molecule respectively. When asked about the advantages and disadvantages of sEVs compared with liposomes, Manager Zhao elaborated this problem from different aspects. Liposomes are usually applied  in situ delivery or can target at  liver parenchymal cells, the targeting ability of which is poor;  Liposomes also have safety problems in terms of immunogenicity and toxicity.  In comparison, sEVs can be recycled to different compartments with a wide delivery range and have good biocompatibility. In addition, more complex engineering transformation can take place on sEVs, which means sEVs have better scalability. In conclusion, sEVs could be better choice for some scenarios due to its biological traits.
+ To promote the proliferation of follicles, we initially planned to up-regulate β-catenin by encapsulating mRNA in sEVs for delivery. Unfortunately, due to the high molecular weight of mRNA, it is difficult to be encapsulated into sEVs. However, studies have shown that **L7Ae can be used to transport mRNA to CD63 on the sEVs’ membrane, so we plan to achieve the packaging and delivery of β-catenin mRNA in this way.**
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/enzetaikang.jpg)
+![img](https://static.igem.wiki/teams/4173/wiki/project/mechanism-of-si-and-mr.png)
 
-Later we went on to interview another company that focused on developing nucleic acid drugs for more information. When asked about which types of drugs are the best sellers, the staff answered that siRNA and mRNA shared the largest market among all types of nucleic acid drugs, mRNA vaccine being a typical example. Inspired by this interview, we came up with the idea of embedding mRNA into sEVs to elevate the number of certain proteins.
+**Fig.4 Project design** (Created with BioRender.com)
 
-###  2.2 The optimization of our design
+Despite the above traditional methods of targeting and delivery by sEVs, we also made many creative points and suitable modifications according to our Human Practices (HP) research to ensure our project addresses societal needs. For this purpose, we extensively interviewed professors, doctors, and experts in related fields, and finally improved our current design. For detailed records, please visit our Human Practices page.
 
-#### 2.2.1 The optimization of the wrapping method of mRNA
+Firstly, due to the limitation of sEV extraction technology, there are still problems such as low purity and low yield, which also lead to the high price and difficult marketing of sEV-based drugs. Therefore, our team found a large-scale purification techn named **Tangential Flow Filtration and Bind-elute size exclusion Chromatography (TFF/BE-SEC)** to overcome the yield problem.[9]
 
-Upon finishing the preliminary design of our project, we did an online interview with Dr. Zheng Lei from Southern Medical University, who is a member of the executive committee on International Society for Extracellular Vesicles,  to ensure the feasibility of our design. Dr. Zheng Lei enumerated several special qualities of sEVs such as the density of sources, high biocompatibility and certain targeting abilities. He also mentioned that currently miRNA, mRNA, and other nucleic acid molecules have been detected in natural sEVs and praised that our idea of embedding mRNA into sEVs to formulate drug effects was fantastic and worthy of an attempt. However, Dr. Zheng informed us that we needed to solve the technical problem of how to package mRNA into sEVs since mRNA was bigger in size. 
+Also, we transformed the delivery method from topical application to microneedle injection. In the final scenario, sEVs will be delivered through the skin via microneedles to further improve the effectiveness of the drug. [8] 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/zhenglei.jpg)
 
-To solve this technical problem, we conducted literature reviews online and found a related article. According to the article, L7ae can be used to transport mRNA to CD63 on the exosomal membrane, so we planned to achieve the packaging and delivery of β-catenin mRNA in this way.
- After refining our design and conducting some experiments, we spoke with Dr. Fu Qingling from the Affiliated Hospital of Sun Yat-sen University, whose research interest included the immune adjustment and large-scale production of sEVs. When asked to provide suggestions on the idea of attaching mRNA to the sEV membrane via L7ae, she said that we should design an experiment to prove that we have connected the mRNA to the inner side of the membrane instead of the outer side. We took this suggestion into consideration carefully and decided to use RNase to examine whether mRNA was wrapped successfully into the sEV. If mRNA was wrapped into the sEV successfully, then the addition of RNase in the solution shouldn’t degrade the mRNA inside. As a result, mRNA would still be detected by qPCR. In addition, we were also concerned that the content of mRNA in sEVs was difficult to detect and consulted the professor about it. Dr. FuQingling recommended that we could apply nested PCR to solve this problem. Nested PCR uses an extra pair of primers to ensure the specificity of amplification and could be applied for the detection of low-expression gene. We also took this advice to refine our experiment design. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/fuqingling.png)
+## 5. Experimental results show a promising future for our project
 
-#### 2.2.2 The optimization of the choice of targets
+To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to **Results.**
 
-5αR is the classic target in the treatment of androgenic alopecia, the current chemical drug finasteride being the specific inhibitor of it. It changes testosterone into dihydrotestosterone, a more damaging androgen that binds to the androgen receptor and finally leads to hair loss. As a result, we decided to wrap the siRNA of 5αR into the sEV to downregulate the amount of this protein.
+要跳转的网页：Results 跳转至 Results
 
-Through further literature reviews, we found a classic pathway called the Wnt gene pathway that can promote cell proliferation and contribute to the maintenance of the hair growth phase. β-catenin is a significant protein that can activate the Wnt downstream pathway, so we planned to package the mRNA of β-catenin into the sEV, regulating the Wnt gene pathway by increasing the amount of β-catenin protein. 
 
-Our advisor Ni Tianyi, also one of last year iGEM leaders,  worked as a research assistant at Professor Zhang Bing's laboratory. Since Professor Zhang Bing's research focused on the regulation of skin stem cells and the regeneration of skin and hair, Ni Tianyi showed our design, which wrapped siRNA of 5αR and mRNA of β-catenin into sEVs, to the professor and asked about his suggestions and opinions. Professor Zhang Bing believed that if the mRNA of β-catenin was loaded into sEVs and expressed successfully, it would have the effect of promoting hair growth. He also suggested that we can add a siRNA to inhibit the apotosis of hair follicle stem cells.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/zhang-bin.png)
+**Reference:**
 
+[1] B M Piraccini, A Alessandrini (2014) Androgenetic alopecia. Minerva Medica 149(1):15-24.
 
+[2] Ahmad M. Al Aboud, Patrick M. Zito (2022) Alopecia StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2022 Jan.2022 Apr 30.
 
-After looking up in literatures, Pizeo1, a stress-activated ion channel on the surface of hair follicle stem cells which functions in cell apoptosis, was chosen as one of our targets. Based on the suggestions provided by the expert, three targets were decided in the end: 5αR, Pizeo1 and β-catenin. According to our design, siRNA of 5αR and Pizeo1 will be wrapped  into the sEVs in order to downregulate the expression of 5αR and Pizeo1. At the same time, mRNA of β-catenin will also be encapsulated into sEVs so that the expression of β-catenin will be upregulated. Since the public were concerned about the side effect and safety of drugs, we used BLAST to prove that the siRNA that we designed have low off-target effect.
+[3] Dhurat R, Sukesh M, Avhad G, Dandale A, Pal A, Pund P. A randomized evaluator blinded study of the effect of microneedling in androgenetic alopecia: a pilot study. Int J Trichology. 2013 Jan;5(1):6-11. doi: 10.4103/0974-7753.114700. PMID: 23960389; PMCID: PMC3746236.
 
-#### 2.2.3 The optimization of the delivery system
+[4] Azzouni F, Zeitouni N, Mohler J. Role of 5α-reductase inhibitors in androgen-stimulated skin disorders. J Drugs Dermatol. 2013 Feb;12(2):e30-5. PMID: 23377402.
 
-#### 
+[5] Xie Y, Chen D, Jiang K, Song L, Qian N, Du Y, Yang Y, Wang F, Chen T. Hair shaft miniaturization causes stem cell depletion through mechanosensory signals mediated by a Piezo1-calcium-TNF-α axis. Cell Stem Cell. 2022 Jan 6;29(1):70-85.e6. doi: 10.1016/j.stem.2021.09.009. Epub 2021 Oct 7. PMID: 34624205.
 
-## 3 Industrialization
+[6] Choi BY. Targeting Wnt/β-Catenin Pathway for Developing Therapies for Hair Loss. Int J Mol Sci. 2020 Jul 12;21(14):4915. doi: 10.3390/ijms21144915. PMID: 32664659; PMCID: PMC7404278.
 
-To promote our understanding of the actual price of sEV products, we consulted Manager Zhao from Echo BioTech about the estimated cost price of sEV products under their present condition. Manager Zhao said that if the content of sEV in a dose was under a trillion, then the cost price of a dose could be controlled under 1000 yuan when other elements such as intellectual property and depreciation of equipment were not considered. The estimated price was close to what people can accept according to the investigation below, which proved that our product have a potential market. 
+[7] Lee SW, Juhasz M, Mobasher P, Ekelem C, Mesinkovska NA. A Systematic Review of Topical Finasteride in the Treatment of Androgenetic Alopecia in Men and Women. J Drugs Dermatol. 2018 Apr 1;17(4):457-463. PMID: 29601622; PMCID: PMC6609098.
 
-Apart from consulting the manager from the sEV company, we also interviewed Manager Chen from Linden Asset which focused on the investment in China's biomedical frontier. Manager Chen suggested that two basic steps are required if we wanted to get investment. Firstly, industry market researches are required to be completed, on the basis of which a business plan should then be written. The business plan should include content such as the description of core technology and the plan for team construction. After that, we can recruit some core members of the team, including  those experienced in technology research and development, clinical trials and drug formulation. He also introduced to us the basic background of alopecia drug in China. The market valuation of minoxidil and finasteride is about 1.5 billion yuan this year, and the growth rate is approximately 60% according to the research,which is very promising. Since minoxidil has changed from prescription medicine to OTC, the market has also transferred from serious medicine market to consumer medicine market. When choosing the investee, they attached importance to the balance between cost and effect. Till now, they have invested in some mature medical products and some new drugs that have better effect and less side effects. Their attitude towards new treatment technology such as wrapping siRNA into sEVs is relatively conservative. Results from animal experiments and proof of advantages on the completeness of supply chains were needed to attract investment. 
+[8] Ahmed Saeed Al-Japairai K, Mahmood S, Hamed Almurisi S, Reddy Venugopal J, Rebhi Hilles A, Azuma M, Raman S. Current trends in polymer microneedle for transdermal drug delivery. Int J Pharm. 2020 Sep 25;587:119673. doi: 10.1016/j.ijpharm.2020.119673. Epub 2020 Jul 30. PMID: 32739388; PMCID: PMC7392082.
 
-When asked about how to raise consumers' acceptance to our product, Manager Chen recommended that we position our product towards the serious medicine market.  Rather than competing with minoxidil, our product could be accepted by hospitals and aesthetic medicine market. If a new drug could take an effect faster than minoxidil, then it would be a nice supplement to the current methods. For example, our "sEV+microneedle" treatment could be combined with daily use of minoxidil or finasteride to reach a better effect. By applying the differentiation competitive strategy, our drug can find a place in the alopecia product market.
+[9] Corso G, Mäger I, Lee Y, Görgens A, Bultema J, Giebel B, Wood MJA, Nordin JZ, Andaloussi SE. Reproducible and scalable purification of extracellular vesicles using combined bind-elute and size exclusion chromatography. Sci Rep. 2017 Sep 14;7(1):11561. doi: 10.1038/s41598-017-10646-x.
 
-Moreover, Manager Chen gave us a suggestion to consider the construction of a technology platform where a series of diseases can be treated via the "sEV+microneedle" delivery system by changing the content wrapped in sEVs.  Through this upgrade, investors will be more interested in our project and the new technologies included could realize their full potential.
+[10] Traish AM, Melcangi RC, Bortolato M, Garcia-Segura LM, Zitzmann M. Adverse effects of 5α-reductase inhibitors: What do we know, don't know, and need to know? Rev Endocr Metab Disord. 2015 Sep;16(3):177-98. doi: 10.1007/s11154-015-9319-y. PMID: 26296373.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/interview-with-chen.png)
+[11] Randolph M, Tosti A. Oral minoxidil treatment for hair loss: A review of efficacy and safety. J Am Acad Dermatol. 2021 Mar;84(3):737-746. doi: 10.1016/j.jaad.2020.06.1009. Epub 2020 Jul 2. PMID: 32622136.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/chen-rui.jpg)
+[12] Jimenez F, Alam M, Vogel JE, Avram M. Hair transplantation: A basic overview. J Am Acad Dermatol. 2021 Oct;85(4):803-814. doi: 10.1016/j.jaad.2021.03.124. Epub 2021 Apr 24. PMID: 33905785.
 
-After the interview with Manager Chen, we planned to take the aesthetic medicine market as our target. In order to conduct market evaluation of our products, we distributed a questionnaire to learn about the public's views of aesthetic medicine.
-
-According to the pie chart below, people usually heard about information of the aesthetic medicine from social media, news or chatting with other people. This result could provide ideas for us if we have the plan to promote our product in the future.
-
-
-
-![img](https://static.igem.wiki/teams/4173/wiki/article/where.png)
-
-As for the preference of ways to accept cosmetology, the order from the highest to the lowest was daily cosmetology, corrective cosmetology, non-invasive cosmetology, and invasive cosmetology. It could be concluded that people preferred ways that were safer, milder and less harmful.  
-
-![img](https://static.igem.wiki/teams/4173/wiki/article/fangshipaixu.png)
-
-When it came to the factors that people cared about most, safety, effect and ingredient stood out, which corresponded to the result of the alopecia questionnaire.
-
-![img](https://static.igem.wiki/teams/4173/wiki/article/product-paixu.png)
-
-If a new aesthetic medicine product which was effective and easy to use was developed, the price range that people could accept most was between 500-1000 yuan, which was chosen by 46 percent of people. This could be applied as a reference for the ideal price of our product.
-
-![img](https://static.igem.wiki/teams/4173/wiki/article/price.png)
-
-
-
-Reference:
-
-[1]Quiñones-Vico MI, Sanabria-de la Torre R, Sánchez-Díaz M, Sierra-Sánchez Á, Montero-Vílchez T, Fernández-González A, Arias-Santiago S. The Role of Exosomes Derived From Mesenchymal Stromal Cells in Dermatology. Front Cell Dev Biol. 2021 Apr 7;9:647012. doi: 10.3389/fcell.2021.647012. PMID: 33898436; PMCID: PMC8058372.
-
-[2]Zhang B, Lai RC, Sim WK, Choo ABH, Lane EB, Lim SK. Topical Application of Mesenchymal Stem Cell Exosomes Alleviates the Imiquimod Induced Psoriasis-Like Inflammation. Int J Mol Sci. 2021 Jan 13;22(2):720. doi: 10.3390/ijms22020720. PMID: 33450859; PMCID: PMC7828312.
-
-[3]Yang G, Chen Q, Wen D, Chen Z, Wang J, Chen G, Wang Z, Zhang X, Zhang Y, Hu Q, Zhang L, Gu Z. A Therapeutic Microneedle Patch Made from Hair-Derived Keratin for Promoting Hair Regrowth. ACS Nano. 2019 Apr 23;13(4):4354-4360. doi: 10.1021/acsnano.8b09573. Epub 2019 Apr 3. PMID: 30942567.
-
-[4]Yerneni SS, Yalcintas EP, Smith JD, Averick S, Campbell PG, Ozdoganlar OB. Skin-targeted delivery of extracellular vesicle-encapsulated curcumin using dissolvable microneedle arrays. Acta Biomater. 2022 Sep 1;149:198-212. doi: 10.1016/j.actbio.2022.06.046. Epub 2022 Jul 6. PMID: 35809788.
+[13] Setten RL, Rossi JJ, Han SP. The current state and future directions of RNAi-based therapeutics. Nat Rev Drug Discov. 2019 Jun;18(6):421-446. doi: 10.1038/s41573-019-0017-4. Erratum in: Nat Rev Drug Discov. 2019 Mar 18; Erratum in Nat Rev Drug Discov. 2019 Apr 24;: PMID: 30846871.
 `
 
 function Page() {
@@ -177,7 +136,7 @@ function Page() {
           <div>{title}</div>
         </div>
         <div className="container container-md margin-bottom-large">
-          <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
+          <ReactMarkdown rehypePlugins={[rehypeRaw]} children={markdown} remarkPlugins={[remarkGfm]} />
         </div>
         <Footer />
       

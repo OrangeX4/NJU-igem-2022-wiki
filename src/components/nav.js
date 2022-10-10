@@ -12,7 +12,15 @@ function Nav() {
       <li className="dropdown">
         <div className="dropdown-title">Project</div>
         <ul className="dropdown-menu border border-4">
+          <li><Link to="/project/contribution/">Contribution</Link></li>
           <li><Link to="/project/description/">Description</Link></li>
+          <li><Link to="/project/design/">Design</Link></li>
+          <li><Link to="/project/engineering/">Engineering</Link></li>
+          <li><Link to="/project/implementation/">Implementation</Link></li>
+          <li><Link to="/project/model/">Model</Link></li>
+          <li><Link to="/project/proof/">Proof of Concept</Link></li>
+          <li><Link to="/project/result/">Result</Link></li>
+          <li><Link to="/project/safety/">Safety</Link></li>
         </ul>
       </li>
       <li className="dropdown">
@@ -28,17 +36,19 @@ function Nav() {
       <li className="dropdown">
         <div className="dropdown-title">Notebook</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/project/description/">Description</Link></li>
+          <li><Link to="/notebook/calendar/">Calendar</Link></li>
+          <li><Link to="/notebook/protocol/">Protocol</Link></li>
         </ul>
       </li>
       <li className="dropdown">
         <div className="dropdown-title">Team</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/project/description/">Description</Link></li>
+          <li><Link to="/team/attribution/">Attribution</Link></li>
+          <li><Link to="/team/member/">Member</Link></li>
         </ul>
       </li>
-      <li><Link to="/">Achievements</Link></li>
-      <li><Link to="/">Parts</Link></li>
+      <li><Link to="/achievements/">Achievements</Link></li>
+      <li><Link to="/parts/">Parts</Link></li>
     </ul>
   </nav>
   )
