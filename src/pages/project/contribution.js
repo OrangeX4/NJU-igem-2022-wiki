@@ -14,13 +14,13 @@ const title = `Project`
 const markdown = `
 # Contribution
 
-For the first time in the iGEM competition, our team constructed plasmids carrying special genes that allow β-catenin-mRNA to be embedded in sEVs ( [BBa_K4173045]([Part:BBa K4173045 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173045)) and  [BBa_K4173046]([Part:BBa K4173046 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173046)) ), siRNA for mouse 5αR 5αR-siRNA-1 ([BBa_K4173048]([Part:BBa K4173048 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173048))) and siRNA for mouse Piezo1 Piezo1-siRNA-5 ([BBa_K4173058]([Part:BBa K4173058 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173058))) and conducted a series of experiments to prove functions they should have in vitro. Increased expression of β-catenin and decreased expression of 5αR and Piezo1 can inhibit apoptosis of hair follicle cells. Details can be found in the Results.
+For the first time in the iGEM competition, our team constructed plasmids carrying special genes that allow β-catenin-mRNA to be embedded in sEVs ( [BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045) and  [BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046) ), siRNA for mouse 5αR 5αR-siRNA-1 ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048)) and siRNA for mouse Piezo1 Piezo1-siRNA-5 ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173058)) and conducted a series of experiments to prove functions they should have in vitro. Increased expression of β-catenin and decreased expression of 5αR and Piezo1 can inhibit apoptosis of hair follicle cells. Details can be found in the Results.
 
 要跳转的网页：Results跳转至Results
 
 
 
-## For β-catenin-mRNA ([BBa_K4173045]([Part:BBa K4173045 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173045))) and L7Ae-CD63 ([BBa_K4173046]([Part:BBa K4173046 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173046)))
+## For β-catenin-mRNA ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)) and L7Ae-CD63 ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046))
 
 The plasmid pcDNA3.1-box CD mini-β catenin-mCherry was transfected into HEK-293T, and the total cellular RNAs were used for RT-qPCR to verify the expression level of β-catenin mRNA. The result indicated that our plasmid could express β-catenin.
 
@@ -38,7 +38,7 @@ Then we co-transfected the two plasmids (pcDNA3.1-box CD mini-β catenin-mCherry
 
 
 
-## For 5αR-siRNA-1 ([BBa_K4173048]([Part:BBa K4173048 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173048)))
+## For 5αR-siRNA-1 ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048))
 
 We respectively transfected plasmids of 5αR-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that siRNA-5αR-1 was effective and could reduce the expression of 5αR mRNA by nearly 80 percent. This result indicates that our siRNA can successfully knock down the expression of 5αR.
 
@@ -60,7 +60,7 @@ After screening out the effective siRNA, we transfected 5αR-siRNA-1-expressing 
 
 
 
-## For Piezo1-siRNA-5 ([BBa_K4173058]([Part:BBa K4173058 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173058)))
+## For Piezo1-siRNA-5 ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173058))
 
 We respectively transfected plasmids of Piezo1-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that Piezo1-siRNA-5 was the most effective and could reduce the expression of Pizeo1 mRNA by nearly 70 percent. This result indicated that our siRNA can successfully knock down the expression of Piezo1.
 

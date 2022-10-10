@@ -30,7 +30,7 @@ With the above three treatments, hair growth should be promoted.
 
 
 
-According to the design of the project, we finally designed four parts: C/Dbox-β-catenin ([BBa_K4173045]([Part:BBa K4173045 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173045))), CD63-L7Ae ([BBa_K4173046]([Part:BBa K4173046 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173046))), 5αR-siRNA-1 ([BBa_K4173048]([Part:BBa K4173048 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173048))) and Piezo1 ([BBa_K4173058]([Part:BBa K4173058 - parts.igem.org](http://parts.igem.org/Part:BBa_K4173058))). Through the following series of experiments, we have proved that these two parts are effective and can be used for treatment.
+According to the design of the project, we finally designed four parts: C/Dbox-β-catenin ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)), CD63-L7Ae ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046)), 5αR-siRNA-1 ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048)) and Piezo1 ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173058)). Through the following series of experiments, we have proved that these two parts are effective and can be used for treatment.
 
 
 
