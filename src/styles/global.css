@@ -90,7 +90,7 @@
   align-items: center;
   justify-content: center;
   max-width: 100%;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .home-row:nth-child(odd) {
@@ -121,7 +121,7 @@
 
 .home-image {
   border: none;
-  width: 30%;
+  width: 35%;
   align-self: flex-end;
 }
 

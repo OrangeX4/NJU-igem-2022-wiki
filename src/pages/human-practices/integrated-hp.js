@@ -24,6 +24,10 @@ While we were selecting the vector for drug delivery at the beginning, sEV caugh
 
 Professor Jiang also mentioned that though liposomes can deliver siRNA into cells in large quantities, most of the siRNA was then consumed by lysosomes and degraded. Since sEVs were part of our natural delivery system, cells could apply their own tools to utilize molecules wrapped in sEVs, the efficiency of which was relatively high.
 
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/jiangxiaohong.jpg" alt="img" style="width:50%;" /></p>
+
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/enzetaikang.jpg" alt="img" style="width: 75%;" /></p>
+
 ### How we respond to our HP
 
 We chose to use sEVs as the vector for drug delivery for their high delivery efficiency, good biocompatibility, and better scalability.
@@ -33,6 +37,10 @@ We chose to use sEVs as the vector for drug delivery for their high delivery eff
 ### How our HP shape our project
 
 During the design process, we consulted experts in the field of sEVs and alopecia to refine our experimental design. Professor Zheng Lei suggested that we should consider how to wrap mRNA into sEVs since it was bigger in size than siRNA, which was taken into careful consideration. After we came up with a solution, Dr. Fu Qingling then pointed out that experiments were required to test whether mRNA was attached to the outer or inner membrane of the sEVs. She also recommended that we use nested PCR to examine the content of mRNA in sEVs, which was very helpful for us.
+
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/zhenglei.jpg" alt="img" style="width: 50%;" /></p>
+
+![img](https://static.igem.wiki/teams/4173/wiki/article/fuqingling.png)
 
 ### How we respond to our HP
 
@@ -44,6 +52,8 @@ We looked up in the literature and found that L7ae can be used to connect mRNA t
 
 According to the results of our two distributed questionnaires, safety and effect were what the public cared about most when they were choosing alopecia and aesthetic medicine products.
 
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/1-concerns-of-gene-therapy.png" alt="img" style="width: 75%;" /></p>
+
 ### How we respond to our HP
 
 We used BLAST to prove that the siRNAs that we designed have a low off-target effect so their safety could be guaranteed.
@@ -54,7 +64,9 @@ We used BLAST to prove that the siRNAs that we designed have a low off-target ef
 
 After we received the results of questionnaires on the public's views of aesthetic medicine and alopecia products, we conducted multiple regression models to predict the outcome of people's acceptance of the new method based on the value of the rest answers. An equation was obtained from the analysis: 
 
- Acceptance of new method=0.5185+0.2615*Knowledge of sEV+0.0135*Acceptance of price (Hundred)+ 0.1919*Degree of anxiety+0.3411*Acceptance of EM
+\`\`\`
+Acceptance of new method = 0.5185 + 0.2615 * Knowledge of exosome + 0.0135 * Acceptance of price (Hundred) + 0.1919 * Degree of anxiety + 0.3411 * Acceptance of EM
+\`\`\`
 
 It can be seen from the equation that the more knowledge people possessed about sEV, the greater their acceptance of new methods. This conclusion provided guidance for our future HP plan.
 
@@ -62,11 +74,17 @@ It can be seen from the equation that the more knowledge people possessed about 
 
 In order to boost the public's acceptance of the new method our project applied, we conducted a lecture with Nanjing-China and SZU-China to popularize knowledge of RNAi and sEV-related technology. Students were interested in our project design after being popularized with related knowledge, the event turned out to be a great success. 
 
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/rnai.jpg" alt="img" style="width: 75%;" /></p>
+
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/sci2.jpg" alt="img" style="width: 75%;" /></p>
+
 ## Industrialization
 
 ### How our HP shape our project
 
 We learned a lot about the sEV and alopecia market background and received valuable opinions from our interviews with Manager Zhao and Manager Chen. The estimated price of a dose of sEV drug, according to Manager Zhao, was 2000-3000 yuan. In addition, Manager Chen gave us suggestions on how to get investment and position our product correctly. He also pointed out a promising future direction for our project. 
+
+![img](https://static.igem.wiki/teams/4173/wiki/article/interview-with-chen.png)
 
 ### How we respond to our HP
 
