@@ -36,7 +36,7 @@ Besides, to facilitate the translational application of our project, we adopted 
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/design.png)
 
-**Fig.1 Overall project design** (Created with BioRender.com)
+<div class="desc"><b>1 Overall project design</b> (Created with BioRender.com)</div>
 
 
 
@@ -56,15 +56,15 @@ The growth cycle of hair is divided into three periods: the growth period, the d
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/skin-structure.png)
 
-**Fig.2 Diagram of skin structure** [2]
+<div class="desc"><b>2 Diagram of skin structure</b> [2]</div>
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/hair-follicle.png)
 
-**Fig.3 Histomorphology of the hair follicle** [12]
+<div class="desc"><b>3 Histomorphology of the hair follicle</b> [12]</div>
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/background.png)
 
-**Fig.4 Mechanism of androgen alopecia** (Created with BioRender.com)
+<div class="desc"><b>4 Mechanism of androgen alopecia</b> (Created with BioRender.com)</div>
 
 
 
@@ -76,7 +76,7 @@ Firstly, 5αR, or 5α-reductase, is a kind of reductase distributed in the cytop
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/testosterone.png)
 
-**Fig.5 Metabolic pathway of testosterone** [5]
+<div class="desc"><b>5 Metabolic pathway of testosterone</b> [5]</div>
 
 
 
@@ -86,7 +86,7 @@ Secondly, Piezo1 is a stress-activated ion channel on the surface of hair follic
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/piezo1.png)
 
-**Fig.6 Piezo1’s role in hair cycle** [6]
+<div class="desc"><b>6 Piezo1’s role in hair cycle</b> [6]</div>
 
 
 
@@ -96,7 +96,7 @@ Thirdly, Wnt is a classical gene that promotes cell proliferation, and studies h
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/l7ae.png)
 
-**Fig.7 Mechanism of using sEVs to deliver mRNA [13]**
+<div class="desc"><b>7 Mechanism of using sEVs to deliver mRNA [13]**
 
 
 
@@ -116,7 +116,7 @@ DC is easy to use and widely available yet does not isolate pure EV. DGC isolate
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/sevs-isolation-method.png)
 
-**Fig.8 Working principle of different methods to isolate EVs** [15]
+<div class="desc"><b>8 Working principle of different methods to isolate EVs</b> [15]</div>
 
 
 
@@ -126,7 +126,7 @@ Traditional SEC enables size-based separation on a single column, with the major
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/exo-extraction.png)
 
-**Fig.9 Technical flow chart of sEVs isolation using three methods (UC, KIT, and TFF/BE-SEC)** (Created with BioRender.com)
+<div class="desc"><b>9 Technical flow chart of sEVs isolation using three methods (UC, KIT, and TFF/BE-SEC)</b> (Created with BioRender.com)</div>
 
 
 

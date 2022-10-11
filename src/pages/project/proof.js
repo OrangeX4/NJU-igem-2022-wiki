@@ -160,7 +160,7 @@ Namely, we performed particle size analysis of sEVs using NanoSight. To assess t
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/compare-three-isolation-methods.png)
 
-**Fig.9** **Characterization of sEVs extracted by three methods.** Cell culture medium of HEK-293T was harvested and sEVs were purified by three methods (UC, EIK and TFF/BE-SEC).  **A:** Size distribution of sEVs extracted by three methods determined by NTA. **B:** Analysis of total protein of sEVs extracted by three methods by BCA. **C:** Number of particles per microgram of protein for sEVs isolated by the three methods. **D:** Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.
+**Fig.9** **Characterization of sEVs extracted by three methods.** Cell culture medium of HEK-293T was harvested and sEVs were purified by three methods (UC, EIK and TFF/BE-SEC).  <b>A:</b> Size distribution of sEVs extracted by three methods determined by NTA. <b>B:</b> Analysis of total protein of sEVs extracted by three methods by BCA. <b>C:</b> Number of particles per microgram of protein for sEVs isolated by the three methods. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.
 
 
 
@@ -168,7 +168,7 @@ We noted that the flow through collected from BE-SEC column could be divided int
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/different-period-of-be-sec.png)
 
-**Fig.10 Characterization of sEVs collected from piecewise BE-SEC.** Cell culture medium of HEK-293T was harvested and sEVs were purified by TFF/BE-SEC immediately. **A:** The process picture obtained when purifying sEVs by BE-SEC. The purple line is UV280, which divided the whole flow through into three sections. **B:** Size distribution of extracellular vesicles from each of the three sections determined by NTA. **C:** Number of particles per section as a percentage of the total number of particles. **D:** Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.
+**Fig.10 Characterization of sEVs collected from piecewise BE-SEC.** Cell culture medium of HEK-293T was harvested and sEVs were purified by TFF/BE-SEC immediately. <b>A:</b> The process picture obtained when purifying sEVs by BE-SEC. The purple line is UV280, which divided the whole flow through into three sections. <b>B:</b> Size distribution of extracellular vesicles from each of the three sections determined by NTA. <b>C:</b> Number of particles per section as a percentage of the total number of particles. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.
 
 
 

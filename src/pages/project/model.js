@@ -78,7 +78,7 @@ ggbetweenstats(
 
 ![img](https://static.igem.wiki/teams/4173/wiki/model/epidemiologic-characteristics-of-androgenetic-alopecia-patients.png)
 
-#### Figure 1 Epidemiologic characteristics of 3047 androgenetic alopecia patients.
+<div class="desc">Figure 1 Epidemiologic characteristics of 3047 androgenetic alopecia patients.</div>
 
  (A) Gender distribution of androgenetic alopecia patients. (B) Country distribution of androgenetic alopecia patients. (C) The box-violin plots of the age distribution of androgenetic alopecia patients in different gender. (D) The box-violin plots of the age distribution of androgenetic alopecia patients in different countries.
 
@@ -176,7 +176,7 @@ dev.off
 
 ![img](https://static.igem.wiki/teams/4173/wiki/model/linear-regression-model.png)
 
-#### Figure 2 Distribution of Age and HNS (androgenetic alopecia degree). 
+<div class="desc">Figure 2 Distribution of Age and HNS (androgenetic alopecia degree).</div>
 
 (A) The histogram of the degree distribution of the male patients group by country. (B) The histogram of the degree distribution of the female patients group by country. (C) The histogram of the age distribution of the patients with a degree. (D) Correlation plot of Degree against Age of male patients.
 
@@ -220,7 +220,7 @@ pander::pander(stepwiseSelection)
 
 ![img](https://static.igem.wiki/teams/4173/wiki/model/linear-model.png)
 
-#### Figure 3 Linear regression model between Degree and Age of male patients.
+<div class="desc">Figure 3 Linear regression model between Degree and Age of male patients.</div>
 
  
 
@@ -294,7 +294,7 @@ chart.Correlation(questionnaire,histogram = TRUE,pch=30)
 
  ![img](https://static.igem.wiki/teams/4173/wiki/model/correlation.png)
 
-#### Figure 4 Correlation analysis of the questionnaire dataset.
+<div class="desc">Figure 4 Correlation analysis of the questionnaire dataset.</div>
 
  (A) Heat Map of correlation of data from the questionnaire, (B) Correlation and significance plot of data from the questionnaire.
 
@@ -346,7 +346,7 @@ summary(stepwiseSelection1)
 
  ![img](https://static.igem.wiki/teams/4173/wiki/model/model1.png)
 
-#### Figure 5 Multivariable linear regression model of Acceptance of new method of the public.
+<div class="desc">Figure 5 Multivariable linear regression model of Acceptance of new method of the public.</div>
 
  
 
@@ -376,7 +376,7 @@ summary(stepwiseSelection2)
 
  
 
-#### Figure 6 Multivariable linear regression model of Acceptance of price of the public.
+Figure 6 Multivariable linear regression model of Acceptance of price of the public.
 
  
 
@@ -579,7 +579,7 @@ Plot[S,{V,0,1}]
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/model/extraction-model.png)
 
-#### Figure 7 Extraction model between: (A) ρ of product and liquid flow rate; (B) The shear force and liquid flow rate.
+<div class="desc">Figure 7 Extraction model between: (A) ρ of product and liquid flow rate; (B) The shear force and liquid flow rate.</div>
 `
 
 function Page() {

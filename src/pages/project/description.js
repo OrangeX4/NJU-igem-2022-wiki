@@ -24,11 +24,11 @@ Nowadays, due to constant pressure and irregular daily routines, alopecia has be
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/gender.png)
 
-**Fig.1 visualization of data of the “Share of people suffering from alopecia by gender”** 
+<div class="desc"><b>Fig.1 visualization of data of the “Share of people suffering from alopecia by gender”</b></div>
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/layout-1.png)
 
-**Fig.2 “Prevalence of alopecia by age” and “Percentage of Alopecia by degree”**
+<div class="desc"><b>Fig.2 “Prevalence of alopecia by age” and “Percentage of Alopecia by degree”</b></div>
 
 
 
@@ -44,7 +44,7 @@ Piezo1, a stress-activated ion channel on the surface of hair follicle stem cell
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/background.png)
 
-**Fig.3 Mechanism of androgen alopecia** (Created with BioRender.com)
+<div class="desc"><b>Fig.3 Mechanism of androgen alopecia</b> (Created with BioRender.com)</div>
 
 
 
@@ -78,7 +78,7 @@ Because of the overexpressed 5αR in androgenic alopecia, we chose to **use siRN
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/mechanism-of-si-and-mr.png)
 
-**Fig.4 Project design** (Created with BioRender.com)
+<div class="desc"><b>Fig.4 Project design</b> (Created with BioRender.com)</div>
 
 Despite the above traditional methods of targeting and delivery by sEVs, we also made many creative points and suitable modifications according to our Human Practices (HP) research to ensure our project addresses societal needs. For this purpose, we extensively interviewed professors, doctors, and experts in related fields, and finally improved our current design. For detailed records, please visit our Human Practices page.
 

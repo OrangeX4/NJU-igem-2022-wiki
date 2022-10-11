@@ -153,11 +153,17 @@ h1, h2, h3, h4 {
   font-weight: bold !important;
 }
 
-h1, h2, h3, h4, p, td, th {
+h1, h2, h3, h4, p, td, th, .desc {
   font-family: 'Tenorite', sans-serif !important;
   color: black;
   text-align: justify;
   font-size: 1.125rem;
+}
+
+.desc {
+  text-align: center;
+  font-size: 1rem;
+  color: #404040;
 }
 
 td, th {
