@@ -28,7 +28,7 @@ One member of our team read the tweets from BUCT’s WeChat Official Account, wh
 
 To expand our project influence and to advance our project progress, we made a whole plan for our partnership, considering all aspects of our projects: Project Design, Human Practices, Science Communication, and Implementation.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/firstmeet.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/firstmeet.png" alt="img" style="width: 50%;" /></p>
 
 Figure 1 NJU-China & BUCT’s first contact through WeChat
 
@@ -36,13 +36,13 @@ Figure 1 NJU-China & BUCT’s first contact through WeChat
 
 In the early stages of our project, we found that we shared a similar target of the project, that is to create a new solution for people who are suffering from alopecia. During the first online meeting, we discussed how to conduct Human Practices based on the different emphases of our project. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/nju-buct-first-meeting.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/nju-buct-first-meeting.png" alt="img" style="width: 75%;" /></p>
 
 Figure 2 NJU-China & BUCT's first meeting
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/introduction-of-the-project.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/introduction-of-the-project.png" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/intro-buct.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/intro-buct.png" alt="img" style="width: 75%;" /></p>
 
 Figure 3 Teams presentation about their project design and background
 
@@ -58,7 +58,7 @@ Figure 4 NJU-China’s word cloud about alopecia and drugs
 
 We provided suggestions for BUCT's work on Human Practices based on our understanding of the medical field. Although BUCT intended to construct a strain that would improve scalp microecology, it is worth considering whether *E. coli Nissle 1917* would harm the scalp. Therefore, BUCT paid more attention to expert advice in the medical field in the following Human Practices work and they conducted interviews with Dr. Jingfang Li and Dr. Xufang Yang.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/buct-interview.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/buct-interview.jpg" alt="img" style="width: 75%;" /></p>
 
 Figure 5 BUCT's interview with medical experts
 
@@ -88,7 +88,7 @@ Figure 6 Alopecia Market Size, Share, and Trends from 2021 to 2028
 
 In the middle stage of our partnership, we held online meetings to further discuss our project. Through these meetings, we helped each other improve our project design, product implementation, and science communication. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/second-meeting.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/second-meeting.png" alt="img" style="width: 75%;" /></p>
 
 Figure 7 NJU-China & BUCT's second meeting
 
@@ -106,9 +106,9 @@ After polishing our project design, we set out to design our questionnaire to ge
 
 During the Competition, BUCT helped us to distribute our questionnaire and expand the group size of our questionnaire, which helped us to get robust outcomes.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/social-investigation-buct1.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/social-investigation-buct1.png" alt="img" style="width:50%;" /></p>
 
- ![img](https://static.igem.wiki/teams/4173/wiki/article/social-investigation-buct2.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/social-investigation-buct2.png" alt="img" style="width:50%;" /></p>
 
 Figure 8 Questionnaire outcomes of NJU-China
 
@@ -136,21 +136,21 @@ On June 19th, 2022, on World No Hair Loss Day, both of our teams carried out off
 
 For NJU-China, we conducted a science communication event with high school students, sharing the types, mechanisms, and current treatment methods of alopecia, and we got positive feedback from the students.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/science-edu-in-high-school.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/science-edu-in-high-school.jpg" alt="img" style="width:75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/sci2.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/sci2.jpg" alt="img" style="width:75%;" /></p>
 
 Figure 11 NJU-China's science communication of alopecia  
 
 For BUCT, they set up publicity windows on campus to popularize alopecia and conducted science communication activities to the public.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/buct-popularization.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/buct-popularization.jpg" alt="img" style="width:75%;" /></p>
 
 Figure 12 BUCT’s science communication of synthetic biology and alopecia
 
 On August 13th, 2022, BUCT held an online education broadcast on the media platform Bilibili to popularize knowledge to the public, introducing synthetic biology, alopecia, and other diseases in a vivid way. We joined the activity and made a presentation about the background and mechanism of alopecia.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/hechengkepu.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/hechengkepu.jpg" alt="img" style="width:75%;" /></p>
 
 Figure 11 Online science communication broadcast
 
@@ -162,7 +162,7 @@ Our team focused on androgenic alopecia, while BUCT focused on reducing the harm
 
 Both NJU-China and BUCT's designs were applied to the scalp, so BUCT asked Guo about skincare products when communicating with him. Guo told BUCT that molecules typically need to travel through hair follicles to reach the dermis and that the maximum molecular weight should be no more than 500Da. This is something we care about, and BUCT shared it with us. We can take this into account to design our sEVs.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/manager-guo.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/manager-guo.png" alt="img" style="width:50%;" /></p>
 
 Figure 12 The Manager Guo of R&D Department in MARUMI
 
@@ -172,7 +172,7 @@ Since BUCT focused on developing a scalp care product, we helped them ask Invest
 
 ![img](https://static.igem.wiki/teams/4173/wiki/article/interview-with-chen.png)
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/chen-rui.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/chen-rui.jpg" alt="img" style="width:75%;" /></p>
 
 Figure 13 NJU-China’s interview with Linden Asset investor, Chen Rui
 
@@ -280,6 +280,13 @@ function Page() {
         </div>
         <div className="container container-md margin-bottom-large">
           <ReactMarkdown rehypePlugins={[rehypeRaw]} children={markdown} remarkPlugins={[remarkGfm]} />
+          <div>
+              <h3>Quick Link:</h3>
+              <div>
+                <a className="paper-btn btn-large btn-secondary-outline home-bottom" href="https://2022.igem.wiki/szu-china/partnership#part-3">SZU-China</a>
+                <a className="paper-btn btn-large btn-secondary-outline home-bottom" href="https://2022.igem.wiki/buct/partnership">BUCT</a>
+              </div>
+          </div>
         </div>
         <Footer />
       

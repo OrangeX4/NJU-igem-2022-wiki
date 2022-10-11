@@ -14,52 +14,50 @@ import "papercss"
 
 const title = `Human Practice`
 const markdown = `
-
-
 # Education & Communication
 
 ## The materials that we use in education&communication activities
 
 ### The introduction of synthetic biology
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/synthetic-biology.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/synthetic-biology.jpg" alt="img" style="width: 75%;" /></p>
 
 ### The introduction of alopecia
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/alopecia-4.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/alopecia-4.png" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/alopecia1.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/alopecia1.png" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/alopecia2.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/alopecia2.png" alt="img" style="width: 75%;" /></p>
 
 ### The introduction of RNAi technology and small extracellular vesicles (sEV)
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/rnai.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/rnai.jpg" alt="img" style="width: 75%;" /></p>
 
 ## Popularizing scientific knowledge to children at Nanjing Science and Technology Museum
 
 This summer, SZU helped us design a science popularization activity facing children, including interesting experiments and drawing sessions. We held the activity at Nanjing Science and Technology Museum with children coming for a visit, most of whom were elementary school students. We showed the children our promotion video at the beginning, informing them of what we were doing in a vivid way. Children were quite interested in the lovely hairy scary monster and watched carefully. Next, we taught these children the concept of DNA and how to extract DNA from bananas. When children lifted white flocculus from the solution via glass rods, they smiled so brightly. We also told them what sEVs were, inviting them to draw sEVs based on their imagination. The canvas was at last filled with colorful bubbles containing all kinds of things children adored.  The activity was a success and we hoped that we have planted small seeds in their little minds, arousing their interest and curiosity in biology. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/dsc-0008.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/dsc-0008.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/dsc-0070.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/dsc-0070.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/dsc-0077.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/dsc-0077.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/dsc-1030.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/dsc-1030.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/kejiguan.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/kejiguan.jpg" alt="img" style="width: 75%;" /></p>
 
 ## Science communication toward high school students
 
 Apart from performing interesting experiments for children, we also wanted to share the concept of our project with high school students to get them interested in synthetic biology. As a result, we discussed with BUCT and decided to hold a science communication event in high school on World No Hair Loss Day to popularize knowledge about hair loss. On June 19th, we held a lecture at Jinling High School with members of the Wisteria Biology Association. First, Hongjun Liu introduced the history and concept of synthetic biology as well as iGEM. Next, the promotion video of our project was shown to the students to help them get a better understanding of what we have done this year vividly. After that, the types, mechanisms, and current treatment methods of alopecia were shared by Zhiyi Juan, the background information of this presentation was once discussed with BUCT.  This was then followed by a brief introduction to our project design.
 During the event, the students showed great interest in our project and got themselves involved actively. Since they have just entered high school, some of the concepts might seem distant and complex to them, but we hoped that this lecture can give them a basic idea of what synthetic biology is and the endless possibilities we can achieve through it. At the same time, we would be so glad if they could view androgenic alopecia more scientifically.
 
-<img src="https://static.igem.wiki/teams/4173/wiki/article/science-edu-in-high-school.jpg" alt="img"  />
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/science-edu-in-high-school.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/sci2.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/sci2.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/sci3.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/sci3.jpg" alt="img" style="width: 75%;" /></p>
 
 ## Science communication toward undergraduate students
 
@@ -75,9 +73,9 @@ The lecture attracted many students and they were curious about synthetic biolog
 
 On September 29th, 2022, we held a debate competition with the help of the Debate Association of Nanjing University, the theme of which was "Whether compassionate use should be allowed in gene therapy". We invited members of the debate team to join the competition and explained to them the concept of gene therapy and compassionate use beforehand. Many students came to watch this competition and this event turned out to be a great success. The debaters and students reflected that they really enjoyed the process and this was a good chance for them to learn about related biological knowledge.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/debate-1.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/debate-1.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/debate-2.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/debate-2.jpg" alt="img" style="width: 75%;" /></p>
 
 ## Propagation
 

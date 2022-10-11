@@ -61,8 +61,8 @@ function IndexPage() {
           <div className="home-row">
             <div data-aos="slide-right" data-aos-duration="2500" className='home-text'>
               <div className='home-box'>
-                <h1>Title</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+                <h1>Androgenetic alopecia</h1>
+                <p>Androgenetic Alopecia is the most prevalent type of hair loss, affecting around half of all males over the age of 50 and roughly half of all women over the age of 65. Younger men and women can be affected by androgenetic alopecia. Androgenetic alopecia is most likely caused by a combination of genetic and environmental causes.</p>
               </div>
               <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor2.png' alt='supervisor'></img>
             </div>
@@ -71,16 +71,16 @@ function IndexPage() {
             <div data-aos="slide-left" data-aos-duration="2500" className='home-text'>
               <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor.png' alt='supervisor'></img>
               <div className='home-box'>
-                <h1>Title</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+                <h1>RNA interference (RNAi)</h1>
+                <p>RNA interference (RNAi) is a conserved biological response to double-stranded RNA that provides resistance to both endogenous parasite and exogenous pathogenic nucleic acids and regulates the expression of protein-coding genes. A gene is silenced as a result of RNA degradation into small RNAs (siRNAs and microRNAs) that activate ribonucleases to target homologous mRNA.</p>
               </div>
             </div>
           </div>
           <div className="home-row">
             <div data-aos="slide-right" data-aos-duration="2500" className='home-text'>
               <div className='home-box'>
-                <h1>Title</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+                <h1>Small extracellular vesicles (sEVs)</h1>
+                <p>Small extracellular vesicles (sEVs) are cell-created protein, lipid, or nucleic acid delivery systems that also serve as a form of extracellular communication. sEVs are now at the forefront of research with various physiologic and pathological activities. sEVs are considered to be a good biocompatible delivery system for RNAi technique.</p>
               </div>
               <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor2.png' alt='supervisor'></img>
             </div>
@@ -89,8 +89,8 @@ function IndexPage() {
             <div data-aos="slide-left" data-aos-duration="2500" className='home-text'>
               <img className="home-image" src='https://static.igem.wiki/teams/4173/wiki/wiki/supervisor.png' alt='supervisor'></img>
               <div className='home-box'>
-                <h1>Title</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellendus excepturi, consequatur illo rerum, non sint asperiores dolore sapiente, vitae blanditiis. Officiis at quaerat modi earum, fugiat magni impedit, aperiam.</p>
+                <h1>NJU-China's project</h1>
+                <p>NJU-China iGEM team's goal is to develop a AGA drug with minimal side effects, stable results, and ease of use. On the one hand, we applied the RNAi technique and mRNA embedding elements to regulate gene expression particularly. On the other hand, we used sEV and microneedles to carry and deliver siRNA and mRNA to follicle cells.</p>
               </div>
             </div>
           </div>
@@ -101,10 +101,10 @@ function IndexPage() {
             <div>
               <h3>Quick Link:</h3>
               <div>
-                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
-                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
-                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
-                <Link to="/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
+                <Link to="/project/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
+                <Link to="/human-practices/overview" className="paper-btn btn-large btn-secondary-outline home-bottom">Human Practices</Link>
+                <Link to="/project/model/" className="paper-btn btn-large btn-secondary-outline home-bottom">Model</Link>
+                <Link to="/achievement/" className="paper-btn btn-large btn-secondary-outline home-bottom">Achievement</Link>
               </div>
             </div>
           </div>

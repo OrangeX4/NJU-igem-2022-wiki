@@ -48,9 +48,9 @@ After the presentation and discussion period, a short conclusion was given by Qi
 
 On September 19th, 2022, we held a debate competition with the help of the Debate Association of Nanjing University, the theme of which was "Whether compassionate use should be allowed in gene therapy". We invited members of the debate team to join the competition and explained to them the concept of gene therapy and compassionate use beforehand. Many students came to watch this competition and this event turned out to be a great success. The debaters and students reflected that they really enjoyed the process and this was a good chance for them to learn about related biological knowledge.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/debate-1.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/debate-1.jpg" alt="img" style="width: 75%;" /></p>
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/debate-2.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/debate-2.jpg" alt="img" style="width: 75%;" /></p>
 
 
 
@@ -60,6 +60,8 @@ On September 19th, 2022, we held a debate competition with the help of the Debat
 
 In order to transport the product out of the engineered bacteria in time and break through the limitation of limited types of transporters, OUC China decided to apply aptamer to the transmembrane transport of the product. The RNA molecule, which functioned as a transporter, consisted of two different types of RNA. One RNA was responsible for targeting the membrane structure and the other one was responsible for the specific binding of the product. In order to test the transport performance of transfer RNA, OUC-China decided to use the extracellular closed membrane structure to incubate with transfer RNA and product molecules. After the incubation, the remaining content of the product molecule will be measured to test the transport performance of transfer RNA. Our team focused on sEV-targeted therapy and was familiar with the relevant experimental operations of sEVs. So we used sEVs to help OUC-China test the transport performance of transfer RNA.
 
+However, due to the recurrence of the epidemic, we encountered some problems with logistics, which caused the limitation of time for us to help them finish the experiments. We're really sorry for the arrangement and hope their project goes well.
+
 
 
 ## Attending meetups
@@ -68,7 +70,7 @@ On May 1st, 2022, our team participated in the iGEM meet-up hosted by CPU-China,
 
 ![img](https://static.igem.wiki/teams/4173/wiki/article/0501igem-meeting-up.png)
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/2022-05-01-igem-meeting-up.jpg)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/2022-05-01-igem-meeting-up.jpg" alt="img" style="width: 75%;" /></p>
 
 On June 25th, 2022, our team participated in the iGEM North-South Forum hosted by SUSTech_EMB, which was attended by ten teams from different parts of China.
 
