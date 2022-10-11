@@ -18,7 +18,7 @@ function Nav() {
           <li><Link to="/project/model/">Model</Link></li>
           <li><Link to="/project/implementation/">Implementation</Link></li>
           <li><Link to="/project/proof/">Proof of Concept</Link></li>
-          <li><Link to="/project/engineering/">Engineering</Link></li>
+          <li><Link to="/project/engineering/">Engineering Success</Link></li>
           <li><Link to="/project/contribution/">Contribution</Link></li>
           <li><Link to="/project/safety/">Safety</Link></li>
         </ul>
