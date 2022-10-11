@@ -2,6 +2,8 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"
+import { Helmet } from "react-helmet"
+
 import Icon from "../../components/icon"
 import Nav from "../../components/nav"
 import Footer from "../../components/footer"
@@ -22,9 +24,7 @@ This year, NJU-China focused on the treatment of androgenic alopecia (AGA), desi
 
 ## 2. Design
 
-See the design and parts sections for details.
-
-要跳转的网页：details这个单词跳转至Design
+See the [design](https://2022.igem.wiki/nju-china/project/design/) and [parts](https://2022.igem.wiki/nju-china/parts/) sections for details.
 
 
 
@@ -272,6 +272,9 @@ According to statistics, there are nearly 1.25 billion androgen alopecia patient
 function Page() {
   return (
     <div>
+      <Helmet>
+        <title>{"NJU-China/" + title + " - 2022.igem.wiki"}</title>
+      </Helmet>
       <Icon />
       <Nav />
       <div className='article-container'>

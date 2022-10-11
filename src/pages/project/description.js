@@ -2,6 +2,8 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"
+import { Helmet } from "react-helmet"
+
 import Icon from "../../components/icon"
 import Nav from "../../components/nav"
 import Footer from "../../components/footer"
@@ -88,9 +90,7 @@ Also, we transformed the delivery method from topical application to microneedle
 
 ## 5. Experimental results show a promising future for our project
 
-To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to **Results.**
-
-要跳转的网页：Results 跳转至 Results
+To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to **[Results](https://2022.igem.wiki/nju-china/project/result/).**
 
 
 
@@ -126,6 +126,9 @@ To demonstrate the efficacy of our project, we conducted a series of experiments
 function Page() {
   return (
     <div>
+      <Helmet>
+        <title>{"NJU-China/" + title + " - 2022.igem.wiki"}</title>
+      </Helmet>
       <Icon />
       <Nav />
       <div className='article-container'>

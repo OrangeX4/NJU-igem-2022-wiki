@@ -2,6 +2,8 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"
+import { Helmet } from "react-helmet"
+
 import Icon from "../../components/icon"
 import Nav from "../../components/nav"
 import Footer from "../../components/footer"
@@ -14,10 +16,7 @@ const title = `Project`
 const markdown = `
 # Contribution
 
-For the first time in the iGEM competition, our team constructed plasmids carrying special genes that allow β-catenin-mRNA to be embedded in sEVs ( [BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045) and  [BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046) ), siRNA for mouse 5αR 5αR-siRNA-1 ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048)) and siRNA for mouse Piezo1 Piezo1-siRNA-5 ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173058)) and conducted a series of experiments to prove functions they should have in vitro. Increased expression of β-catenin and decreased expression of 5αR and Piezo1 can inhibit apoptosis of hair follicle cells. Details can be found in the Results.
-
-要跳转的网页：Results跳转至Results
-
+For the first time in the iGEM competition, our team constructed plasmids carrying special genes that allow β-catenin-mRNA to be embedded in sEVs ( [BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045) and  [BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046) ), siRNA for mouse 5αR 5αR-siRNA-1 ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048)) and siRNA for mouse Piezo1 Piezo1-siRNA-5 ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173058)) and conducted a series of experiments to prove functions they should have in vitro. Increased expression of β-catenin and decreased expression of 5αR and Piezo1 can inhibit apoptosis of hair follicle cells. Details can be found in the [Results](https://2022.igem.wiki/nju-china/project/result/).
 
 
 ## For β-catenin-mRNA ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)) and L7Ae-CD63 ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046))
@@ -82,6 +81,9 @@ After screening out the effective siRNA, we transfected Piezo1-siRNA-5-expressin
 function Page() {
   return (
     <div>
+      <Helmet>
+        <title>{"NJU-China/" + title + " - 2022.igem.wiki"}</title>
+      </Helmet>
       <Icon />
       <Nav />
       <div className='article-container'>

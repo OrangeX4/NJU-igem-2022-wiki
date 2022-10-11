@@ -2,6 +2,8 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"
+import { Helmet } from "react-helmet"
+
 import Icon from "../../components/icon"
 import Nav from "../../components/nav"
 import Footer from "../../components/footer"
@@ -83,6 +85,9 @@ Thank GenScript for the opportunity to participate in the exchange and discussio
 function Page() {
   return (
     <div>
+      <Helmet>
+        <title>{"NJU-China/" + title + " - 2022.igem.wiki"}</title>
+      </Helmet>
       <Icon />
       <Nav />
       <div className='article-container'>

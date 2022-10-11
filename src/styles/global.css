@@ -160,6 +160,10 @@ h1, h2, h3, h4, p, td, th {
   font-size: 1.125rem;
 }
 
+td, th {
+  vertical-align: middle !important;
+}
+
 h1, h2, h4, p {
   line-height: 1.625;
 }
@@ -257,7 +261,7 @@ ul.inline li.dropdown div.dropdown-title::after {
 }
 
 ul.inline li.dropdown ul.dropdown-menu {
-  background-color: #ffffff80;
+  background-color: #ffffffe0;
   display: none;
   flex-direction: column;
   justify-content: center;

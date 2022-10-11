@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import AOS from "aos"
 
 import Icon from "../components/icon"
@@ -19,6 +20,9 @@ function IndexPage() {
 
   return (
     <div>
+      <Helmet>
+        <title>NJU-China/Home - 2022.igem.wiki</title>
+      </Helmet>
       <Icon />
       <Nav />
       {/* <div className="nav-space" /> */}

@@ -12,14 +12,14 @@ function Nav() {
       <li className="dropdown">
         <div className="dropdown-title">Project</div>
         <ul className="dropdown-menu border border-4">
-          <li><Link to="/project/contribution/">Contribution</Link></li>
           <li><Link to="/project/description/">Description</Link></li>
           <li><Link to="/project/design/">Design</Link></li>
-          <li><Link to="/project/engineering/">Engineering</Link></li>
-          <li><Link to="/project/implementation/">Implementation</Link></li>
-          <li><Link to="/project/model/">Model</Link></li>
-          <li><Link to="/project/proof/">Proof of Concept</Link></li>
           <li><Link to="/project/result/">Result</Link></li>
+          <li><Link to="/project/model/">Model</Link></li>
+          <li><Link to="/project/implementation/">Implementation</Link></li>
+          <li><Link to="/project/proof/">Proof of Concept</Link></li>
+          <li><Link to="/project/engineering/">Engineering</Link></li>
+          <li><Link to="/project/contribution/">Contribution</Link></li>
           <li><Link to="/project/safety/">Safety</Link></li>
         </ul>
       </li>

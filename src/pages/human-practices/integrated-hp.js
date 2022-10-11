@@ -2,6 +2,8 @@ import React from "react"
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"
+import { Helmet } from "react-helmet"
+
 import Icon from "../../components/icon"
 import Nav from "../../components/nav"
 import Footer from "../../components/footer"
@@ -74,6 +76,9 @@ We planned to place our product in the aesthetic medicine market and then distri
 function Page() {
   return (
     <div>
+      <Helmet>
+        <title>{"NJU-China/" + title + " - 2022.igem.wiki"}</title>
+      </Helmet>
       <Icon />
       <Nav />
       <div className='article-container'>
