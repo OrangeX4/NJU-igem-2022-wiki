@@ -102,8 +102,8 @@ function IndexPage() {
               <h3>Quick Link:</h3>
               <div>
                 <Link to="/project/description/" className="paper-btn btn-large btn-secondary-outline home-bottom">Project</Link>
-                <Link to="/human-practices/overview" className="paper-btn btn-large btn-secondary-outline home-bottom">Human Practices</Link>
-                <Link to="/project/model/" className="paper-btn btn-large btn-secondary-outline home-bottom">Model</Link>
+                <Link to="/human-practices/overview/" className="paper-btn btn-large btn-secondary-outline home-bottom">Human Practices</Link>
+                <Link to="/model/epidemiology-analysis/" className="paper-btn btn-large btn-secondary-outline home-bottom">Model</Link>
                 <Link to="/achievements/" className="paper-btn btn-large btn-secondary-outline home-bottom">Achievements</Link>
               </div>
             </div>
