@@ -42,7 +42,9 @@ NJU-China's laboratory has been engaged in small nucleic acid research for many 
 
 At present, the technology has applied for a national invention patent, which is being accepted. Given our long-standing relationship with GenScript, we presented our research to GenScript after signing a non-disclosure agreement. GenScript was so excited about the project that they decided to form a company with us.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/notice-of-acceptance-of-patent-application.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/notice-of-acceptance-of-patent-application.png" alt="img" style="width: 70%;" /></p>
+
+
 
 ### 3.3 Modality
 
@@ -54,15 +56,15 @@ We will be responsible for the research portion of the laboratory, and GenScript
 
 ### 4.1 The experimental process
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/experimental-process.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/experimental-process.png" alt="img" style="width: 50%;" /></p>
 
 
 
 ### 4.2 Therapeutic modalities
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/design.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/design.png" alt="img" style="width: 80%;" /></p>
 
-(Created with BioRender.com)
+<div class="desc">(Created with BioRender.com)</div>
 
 
 
@@ -102,19 +104,21 @@ To conduct a market evaluation of our products, we distributed a questionnaire t
 
 According to the pie chart below, people usually heard about information about aesthetic medicine from social media, news, or chatting with other people. This result could provide ideas for us if we have a plan to promote our product in the future.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/1-pathway-of-hearing-about-aga.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/1-pathway-of-hearing-about-aga.png" alt="img" style="width: 75%;" /></p>
+
+
 
 As for the preference of ways to accept cosmetology, the order from the highest to the lowest was daily cosmetology, corrective cosmetology, non-invasive cosmetology, and invasive cosmetology. It could be concluded that people preferred ways that were safer, milder, and less harmful. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/1-preference-of-ways-to-acosmetology.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/1-preference-of-ways-to-acosmetology.png" alt="img" style="width: 85%;" /></p>
 
 When it came to the factors that people cared about most, safety, effect and ingredient stood out, which corresponded to the result of the alopecia questionnaire.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/1-people-cared-about-most.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/1-people-cared-about-most.png" alt="img" style="width: 85%;" /></p>
 
 If a new aesthetic medicine product that was effective and easy to use was developed, the price range that people could accept most was between 500-1000 yuan, which was chosen by 46 percent of people. This could be applied as a reference for the ideal price of our product.
 
-![img](https://static.igem.wiki/teams/4173/wiki/article/1-price-range.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/article/1-price-range.png" alt="img" style="width: 65%;" /></p>
 
 
 
@@ -174,7 +178,7 @@ Professional academic background: As professional learners, we’ll make sure th
 
 ## 6. Marketing strategy
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/marketing-strategy.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/marketing-strategy.png" alt="img" style="width: 70%;" /></p>
 
 
 

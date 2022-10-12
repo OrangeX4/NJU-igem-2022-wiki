@@ -26,7 +26,7 @@ This year's team was formed in December 2021, consisting of 15 students. 13 stud
 
 |    Members     |                            Photo                             |                         Attribution                          |
 | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|   Qiang Liu    | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-liu-qiang.jpg)<br />One of the team leaders | He arranged and completed most of the Human Practice, communication with other teams, and interviews with experts; developed most stage plans of the team; completed experiments of sEVs extraction; filmed and produced our promotion video; designed and completed models and participated in making wiki (Model, Human Practice, Judging form, Calendar). |
+|   Qiang Liu    | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-liu-qiang.jpg)One of the team leaders | He arranged and completed most of the Human Practice, communication with other teams, and interviews with experts; developed most stage plans of the team; completed experiments of sEVs extraction; filmed and produced our promotion video; designed and completed models and participated in making wiki (Model, Human Practice, Judging form, Calendar). |
 |  Qianhui Yang  | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-yang-qianhui.jpg)One of the team leaders | She put forward the idea of our project and completed most of the design, experimental planning, and design of most components; completed most experiments throughout the year; filmed and produced our promotion video; finished safety form and participated in making wiki (Design of our page, Project, Calendar) |
 |    Yuchi Li    | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-li-yuchi.jpg)One of the team leaders | He completed experiments including molecular experiments, plasmid extraction, and tangential flow; attended meetups (presentation), activities, and design of our promotion video; completed figures of our design using Biorender and participated in making wiki (Achievement, Judging form, Protocol). |
 |   Zhiyi Juan   | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-juan-zhiyi.jpg)One of the team leaders | She helped select our target gene; attended and planned most Human Practice activities including questionnaire design and distribution, meetups presentation, interviews, activities communication and arrangement, and production of our promotion video; participated in making wiki (Human Practice, Calendar) and completing the written parts of our propagation. |
@@ -39,7 +39,7 @@ This year's team was formed in December 2021, consisting of 15 students. 13 stud
 |  Yingjun Peng  | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-peng-yingjun.jpg) | He completed the consumption level analysis model, finished making educational materials, and attended meetups and activities. |
 |   Hanyu Yang   | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-yang-hanyu.jpg) | She completed experiments of sEVs extraction, designed the arrangement for our activities and helped collect the contents of our interviews. |
 |   Zirun Yin    | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-yin-zirun.jpg) | He completed experiments on plasmid extraction and attended interviews with experts. |
-|   Ruining Hu   | ![image-20221010103236159](https://static.igem.wiki/teams/4173/wiki/members/1-hu-ruining.png) | She made up the script of our promotion video, designed the arrangement for our activities, helped finish safety form, and participated in making wiki (Implementation). |
+|   Ruining Hu   | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-hu-ruining.png) | She made up the script of our promotion video, designed the arrangement for our activities, helped finish safety form, and participated in making wiki (Implementation). |
 |  Xinyang Dong  | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-dong-xinyang.jpg) | He helped design our questionnaire and collected the contents of our interviews. |
 
 
@@ -49,7 +49,7 @@ This year's team was formed in December 2021, consisting of 15 students. 13 stud
 |   Advisors   |                            Photo                             |                         Attribution                          |
 | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  Chenyu Tao  | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-tao-chenyu.jpg) | He guided us to design our project, experiments, and Human Practices. |
-| Ruoyan Zhang | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-zhang-ruoyan.jpg) | She is the chief consultant of the wet experiment provided a lot of literature for the team's experimental design. He also guided the students in the wet experiment group to complete most of the experiments. |
+| Ruoyan Zhang | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-zhang-ruoyan.jpg) | She is the chief consultant of the wet experiment provided a lot of literature for the team's experimental design. She guided and helped the students in the wet experiment group to complete most of the experiments. She also helped our team to revise the wiki. |
 | Nannan Jiang | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-nannan-jiang.jpg) | He communicated and discussed with the team every week, participated in the meetings organized by the team as a guest, and provided advice on experiments and Human Practices for us throughout the Competition. |
 |  Tianyi Ni   | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-ni-tianyi.jpg) | He helped us register for our project, provided advice on our project, and helped us contact experts. |
 |    Yi Qiu    | ![img](https://static.igem.wiki/teams/4173/wiki/members/1-qiu-yi.png) |          She guided us to conduct cell experiments.          |
@@ -62,18 +62,24 @@ This year's team was formed in December 2021, consisting of 15 students. 13 stud
 
 ## PI
 
-| <img src="https://static.igem.wiki/teams/4173/wiki/members/1-chen-xi.jpg" alt="img" style="zoom: 200%;" />Xi Chen | He guided us to decide the direction of our project promotion and helped us get the chance to interview many experts in different fields. |
+| <img src="https://static.igem.wiki/teams/4173/wiki/members/1-chen-xi.jpg" alt="img" style="width: 300%;" />Xi Chen | He guided us to decide the direction of our project promotion and helped us get the chance to interview many experts in different fields. |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 
 
 ## Acknowledgment
 
-
-
 From the beginning of 2022 to the end of 2022, COVID-19 is still raging all over the world, and we have encountered many dilemmas throughout the Competition.
 
 Thanks to every member of the team, as well as teachers and advisors, for their meritorious guidance. This project would not have been completed without you.
+
+Thanks to Zheng Fu, Hongyuan Guo, Yuanyuan Su and Shengjun Fang, although they are not member of our team, they still helped us a lot with the project.
+
+Thanks to Zheng Fu for conceiving project idea, conceptualization, and supervision.
+
+Thanks to Hongyuan Guo and Yuanyuan Su for labwork instruction.
+
+Thanks to [Shengjun Fang](https://github.com/OrangeX4) for helping us create the wiki.
 
 Thanks for the funding support from the M3 lab, the Department of Life Science, and the Office of Academic Affairs of Nanjing University, who provided the laboratory and required material involved in the experiments of our project. Thank NJU Advanced Institution for Life Science and Jiangsu Engineering Center for MicroRNA Biology and Technology for the technical support.
 

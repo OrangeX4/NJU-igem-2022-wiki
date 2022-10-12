@@ -43,7 +43,7 @@ function IndexPage() {
             data-aos-delay="50"
             data-aos-duration="2000"
             className='description'
-            src='https://static.igem.wiki/teams/4173/wiki/wiki/description.png' alt='logo animation' />
+            src='https://static.igem.wiki/teams/4173/wiki/wiki/description2.png' alt='logo animation' />
           <img data-aos="fade-up"
             data-aos-delay="500"
             data-aos-offset="-100"

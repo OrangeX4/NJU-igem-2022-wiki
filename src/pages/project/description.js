@@ -22,11 +22,11 @@ const markdown = `
 
 Nowadays, due to constant pressure and irregular daily routines, alopecia has become an increasing challenge for people, which can be illustrated by the following visualization of data from the database. Through these outcomes (Fig.1) of “Share of people suffering from Alopecia by gender”, “Prevalence of alopecia by age” and “Percentage of Alopecia by severity, we gained a deeper understanding of the current situation of alopecia and concluded that there is a huge demand for solutions to alopecia. Among many types of alopecia, androgenetic alopecia (AGA) is the most common form of alopecia, whose prevalence is 80% in men and 50% in women, and more and more young people are receiving AGA[1]. Alopecia not only affects one’s appearance negatively but also causes mental problems such as anxiety and inferiority, posing threat to one’s relationship and career. Unlike the other type of hair loss, and baldness, there are no very effective medications for AGA. The only medications on the market for AGA are finasteride and minoxidil, both of which have the disadvantage of being unstable and having side effects. That’s why drug companies attach great importance to the development of new drugs for the treatment of androgenetic alopecia. There are currently about 1,000 privately and publicly funded clinical studies for the development of alopecia drugs worldwide (based on [Home – ClinicalTrials.gov](https://clinicaltrials.gov/)). This year, the NJU-CHINA iGEM Team focused on the treatment of androgenic alopecia, hoping to develop an “sEV + siRNA / mRNA” transdermal drug delivery system based on large-scale sEV extraction technology. This system could be further applied to the treatment of other skin diseases apart from AGA such as acne, which we have demonstrated through a series of experiments.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/gender.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/gender.png" alt="img" style="width: 40%;" /></p>
 
-<div class="desc"><b>Fig.1 visualization of data of the “Share of people suffering from alopecia by gender”</b></div>
+<div class="desc"><b>Fig.1 Visualization of data of the “Share of people suffering from alopecia by gender”</b></div>
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/layout-1.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/layout-1.jpg" alt="img" style="width: 100%;" /></p>
 
 <div class="desc"><b>Fig.2 “Prevalence of alopecia by age” and “Percentage of Alopecia by degree”</b></div>
 
@@ -42,9 +42,9 @@ Piezo1, a stress-activated ion channel on the surface of hair follicle stem cell
 
 β-catenin is a necessary protein to activate Wnt downstream so that Wnt can promote cell proliferation and maintain the hair growth phase to combat androgenic alopecia. [6]
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/background.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/background.png" alt="img" style="width: 80%;" /></p>
 
-<div class="desc"><b>Fig.3 Mechanism of androgen alopecia</b> (Created with BioRender.com)</div>
+<div class="desc"><b>Fig.2 “Prevalence of alopecia by age” and “Percentage of Alopecia by degree”</b> (Created with BioRender.com)</div>
 
 
 
@@ -76,9 +76,11 @@ Because of the overexpressed 5αR in androgenic alopecia, we chose to **use siRN
 
  To promote the proliferation of follicles, we initially planned to up-regulate β-catenin by encapsulating mRNA in sEVs for delivery. Unfortunately, due to the high molecular weight of mRNA, it is difficult to be encapsulated into sEVs. However, studies have shown that **L7Ae can be used to transport mRNA to CD63 on the sEVs’ membrane, so we plan to achieve the packaging and delivery of β-catenin mRNA in this way.**
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/mechanism-of-si-and-mr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/mechanism-of-si-and-mr.png" alt="img" style="width: 80%;" /></p>
 
-<div class="desc"><b>Fig.4 Project design</b> (Created with BioRender.com)</div>
+<div class="desc"><b>Fig.4 Molecular mechanisms for the treatment of AGA</b> (Created with BioRender.com)</div>
+
+
 
 Despite the above traditional methods of targeting and delivery by sEVs, we also made many creative points and suitable modifications according to our Human Practices (HP) research to ensure our project addresses societal needs. For this purpose, we extensively interviewed professors, doctors, and experts in related fields, and finally improved our current design. For detailed records, please visit our Human Practices page.
 
@@ -90,7 +92,7 @@ Also, we transformed the delivery method from topical application to microneedle
 
 ## 5. Experimental results show a promising future for our project
 
-To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to **[Results](https://2022.igem.wiki/nju-china/project/result/).**
+To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to [**Results**]([NJU-China/Project - 2022.igem.wiki](https://2022.igem.wiki/nju-china/project/result/)).
 
 
 

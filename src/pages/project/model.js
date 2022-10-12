@@ -78,7 +78,7 @@ ggbetweenstats(
 
 ![img](https://static.igem.wiki/teams/4173/wiki/model/epidemiologic-characteristics-of-androgenetic-alopecia-patients.png)
 
-<div class="desc">Figure 1 Epidemiologic characteristics of 3047 androgenetic alopecia patients.</div>
+#### Figure 1 Epidemiologic characteristics of 3047 androgenetic alopecia patients.
 
  (A) Gender distribution of androgenetic alopecia patients. (B) Country distribution of androgenetic alopecia patients. (C) The box-violin plots of the age distribution of androgenetic alopecia patients in different gender. (D) The box-violin plots of the age distribution of androgenetic alopecia patients in different countries.
 
@@ -176,7 +176,7 @@ dev.off
 
 ![img](https://static.igem.wiki/teams/4173/wiki/model/linear-regression-model.png)
 
-<div class="desc">Figure 2 Distribution of Age and HNS (androgenetic alopecia degree).</div>
+#### Figure 2 Distribution of Age and HNS (androgenetic alopecia degree). 
 
 (A) The histogram of the degree distribution of the male patients group by country. (B) The histogram of the degree distribution of the female patients group by country. (C) The histogram of the age distribution of the patients with a degree. (D) Correlation plot of Degree against Age of male patients.
 
@@ -220,7 +220,7 @@ pander::pander(stepwiseSelection)
 
 ![img](https://static.igem.wiki/teams/4173/wiki/model/linear-model.png)
 
-<div class="desc">Figure 3 Linear regression model between Degree and Age of male patients.</div>
+#### Figure 3 Linear regression model between Degree and Age of male patients.
 
  
 
@@ -294,7 +294,7 @@ chart.Correlation(questionnaire,histogram = TRUE,pch=30)
 
  ![img](https://static.igem.wiki/teams/4173/wiki/model/correlation.png)
 
-<div class="desc">Figure 4 Correlation analysis of the questionnaire dataset.</div>
+#### Figure 4 Correlation analysis of the questionnaire dataset.
 
  (A) Heat Map of correlation of data from the questionnaire, (B) Correlation and significance plot of data from the questionnaire.
 
@@ -346,7 +346,7 @@ summary(stepwiseSelection1)
 
  ![img](https://static.igem.wiki/teams/4173/wiki/model/model1.png)
 
-<div class="desc">Figure 5 Multivariable linear regression model of Acceptance of new method of the public.</div>
+#### Figure 5 Multivariable linear regression model of Acceptance of new method of the public.
 
  
 
@@ -376,7 +376,7 @@ summary(stepwiseSelection2)
 
  
 
-Figure 6 Multivariable linear regression model of Acceptance of price of the public.
+#### Figure 6 Multivariable linear regression model of Acceptance of price of the public.
 
  
 
@@ -436,7 +436,7 @@ Where ME refers to actual medical expenditure, Di refers to disposable income an
 
 Obviously, basic medicine is totally affordable for most urban and rural residents. However, when it comes to a hair-transplanting surgery, the value is like this[ME=20,000 in 2021. Besides, ME in each year equals the ME next year divides CPI(Last Year=100) then multiplies 100]:
 
- ![img](https://static.igem.wiki/teams/4173/wiki/project/me.png)
+![img](https://static.igem.wiki/teams/4173/wiki/project/me.png)
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/me-di-en-di.png)
 
@@ -579,7 +579,7 @@ Plot[S,{V,0,1}]
 
 ![img](https://static.igem.wiki/teams/4173/wiki/project/model/extraction-model.png)
 
-<div class="desc">Figure 7 Extraction model between: (A) ρ of product and liquid flow rate; (B) The shear force and liquid flow rate.</div>
+#### Figure 7 Extraction model between: (A) ρ of product and liquid flow rate; (B) The shear force and liquid flow rate.
 `
 
 function Page() {

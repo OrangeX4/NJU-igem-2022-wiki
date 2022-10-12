@@ -28,7 +28,7 @@ With the above three strategies, hair growth can be promoted.
 
 Besides, to facilitate the translational application of our project, we adopted a scalable sEV purification method—tangential flow filtration and bind-elute size exclusion chromatography (TFF/BE-SEC). After comparing it with conventional methods (UC and EIK), we demonstrated TFF/BE-SEC is the most advantageous one.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/design.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/design.png" alt="img" style="width: 80%;" /></p>
 
 <div class="desc"><b>Fig.1 Project design</b> (Created with BioRender.com)</div>
 
@@ -61,15 +61,10 @@ On the NCBI web page, we designed the required murine siRNA for 5αR and Piezo1.
 **siRNAs for 5αR:**
 
 5αR-siRNA-1: AAUGAGUAAAUAAAUGUCCUG
-
 5αR-siRNA-2: AAUAAACCAGGUAAUAGGCUU
-
 5αR-siRNA-3: AACAAAGUGUGAAAAAUGCAA
-
 5αR-siRNA-4: TCAGAAAGATCACCGCTGATA
-
 5αR-siRNA-5: TAAACCAGGTAATAGGCTTGC
-
 5αR-siRNA-6: AAACAAGCCACCTTGTGGGAT
 
 
@@ -77,15 +72,10 @@ On the NCBI web page, we designed the required murine siRNA for 5αR and Piezo1.
 **siRNAs for Piezo1:**
 
 Piezo1-siRNA-1: UAGAAACAGCAAAUAGACCAG
-
 Piezo1-siRNA-2: AGUAUAGGCAAAUGAGAUGGC
-
 Piezo1-siRNA-3: AUAAAUGGUGUCUGAUAGCAG
-
 Piezo1-siRNA-4: TATGTCTTCATCGTCGTCATC
-
 Piezo1-siRNA-5: TTCATCGTCGTCATCATCGTC
-
 Piezo1-siRNA-6: ATCATCGTCATCGTCATCATC
 
 
@@ -94,13 +84,13 @@ Piezo1-siRNA-6: ATCATCGTCATCGTCATCATC
 
 We respectively transfected plasmids of 5αR-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that siRNA-5αR-1 was effective and could reduce the expression of 5αR mRNA by nearly 80 percent. This result indicates that our siRNA can successfully knock down the expression of 5αR.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/sirna-5ar-qpcr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/sirna-5ar-qpcr.png" alt="img" style="width: 80%;" /></p>
 
 <div class="desc"><b>Fig.2 Analysis of the inhibitory effect of different siRNAs on 5αR by RT-qPCR.</b> RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,2,3,4,5,6). Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of 5αR mRNA.</div>
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/wb-5ar-sirna.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/wb-5ar-sirna.png" alt="img" style="width: 80%;" /></p>
 
-<div class="desc"><b>Fig.3 Analysis of the inhibitory effect of different siRNAs on 5αR by WB.</b> RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,4,5,6) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-5αR and anti-GAPDH antibodies (equal GAPDH band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative 5αR protein expression level.<div>
+<div class="desc"><b>Fig.3 Analysis of the inhibitory effect of different siRNAs on 5αR by WB.</b> RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,4,5,6) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-5αR and anti-GAPDH antibodies (equal GAPDH band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative 5αR protein expression level.</div>
 
 
 
@@ -108,11 +98,11 @@ We respectively transfected plasmids of 5αR-siRNA into RM-1. Then we conducted 
 
 We respectively transfected plasmids of Piezo1-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that Piezo1-siRNA-5 was the most effective and could reduce the expression of Pizeo1 mRNA by nearly 70 percent. This result indicated that our siRNA can successfully knock down the expression of Piezo1.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/sirna-piezo1-qpcr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/sirna-piezo1-qpcr.png" alt="img" style="width: 80%;" /></p>
 
-<div class="desc"><b>Fig.4 Analysis of the inhibitory effect of different siRNAs on Piezo1 by RT-qPCR.</b> RM-1 RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-1,2,3,4,5,6) or empty plasmid. Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of Piezo1 mRNA.</div>
+<div class="desc"><b>Fig.4 Analysis of the inhibitory effect of different siRNAs on Piezo1 by RT-qPCR.</b> RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-1,2,3,4,5,6) or empty plasmid. Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of Piezo1 mRNA.</div>
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/wb-piezo1-sirna.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/wb-piezo1-sirna.png" alt="img" style="width: 80%;" /></p>
 
 <div class="desc"><b>Fig.5 Analysis of the inhibitory effect of different siRNAs on Piezo1 by WB.</b> RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-4,5) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-Piezo1 and anti-Tubulin antibodies (equal Tubulin band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative Piezo1 protein expression level.</div>
 
@@ -122,9 +112,11 @@ We respectively transfected plasmids of Piezo1-siRNA into RM-1. Then we conducte
 
 After screening out the effective siRNAs (5αR-siRNA-1 and Piezo1-siRNA-5), we transfected the corresponding plasmids into HEK-293T and purified sEVs from cell culture medium. Then we conducted RT-qPCR utilizing total RNAs of the specific sEVs and proved that the sEVs do have the siRNAs we need. 
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/sevs-sirna.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/sevs-sirna.png" alt="img" style="width: 80%;" /></p>
 
-<div class="desc"><b>Fig.6** **Analysis of relative siRNAs expression level in sEVs by RT-qPCR.</b> HEK-293T cells were co-transfected with 5αR-siRNA-1-expressing plasmids and Piezo1-siRNA-5-expressing plasmids. SEVs were purified 36h later and sEVs’ total RNA was harvested for quantitative RT-PCR to analyze the relative expression level of 5αR-siRNA-1 or Piezo1-siRNA-5.</div>
+<div class="desc"><b>Fig.6 Analysis of relative siRNAs expression level in sEVs by RT-qPCR.</b> HEK-293T cells were co-transfected with 5αR-siRNA-1-expressing plasmids and Piezo1-siRNA-5-expressing plasmids. SEVs were purified 36h later and sEVs’ total RNA was harvested for quantitative RT-PCR to analyze the relative expression level of 5αR-siRNA-1 or Piezo1-siRNA-5.</div>
+
+
 
 ## 4. mRNA-β-catenin can be embedded into sEVs
 
@@ -138,9 +130,9 @@ After reading the literature [2,3], we found the required nucleotide sequences o
 
 The plasmid pcDNA3.1-box CD mini-β catenin-mCherry was transfected into HEK-293T, and the total cellular RNAs were used for RT-qPCR to verify the expression level of β-catenin mRNA. The result indicated that our plasmid could express β-catenin.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/beta-catenin-expression-in-293t-qpcr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/beta-catenin-expression-in-293t-qpcr.png" alt="img" style="width: 40%;" /></p>
 
-<div class="desc"><b>Fig.7 Analysis of relative mRNA-β-catenin expression level by RT-qPCR.</b> HEK-293T was transfected with C/Dbox-mRNA-β-catenin-expressing plasmids (β-catenin) and empty plasmids (NC). Total RNA was harvested 30h later for quantitative RT-PCR to analyze the relative expression level of mRNA-β-catenin.</div>
+<div class="desc"><b>Fig.7 Analysis of relative mRNA-β-catenin expression level by RT-qPCR.</b> HEK-293T was transfected with C/Dbox-mRNA-β-catenin-expressing plasmids (β-catenin) and empty plasmids (NC). Total RNA was harvested 30h later for quantitative RT-PCR to analyze the relative expression level of mRNA-β-catenin. </div>
 
 
 
@@ -148,9 +140,9 @@ The plasmid pcDNA3.1-box CD mini-β catenin-mCherry was transfected into HEK-293
 
 We co-transfected the two plasmids (pcDNA3.1-box CD mini-β catenin-mCherry and pcDNA3.1-CD63-L7Ae-mCherry) into HEK-293T and collected sEVs from cell culture medium. The total RNA of the specific sEVs was extracted for RT-qPCR to detect mRNA-β-catenin. The result demonstrated that our approach of wrapping mRNA-β-catenin into sEVs is feasible.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/mrna-beta-in-sevs.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/mrna-beta-in-sevs.png" alt="img" style="width: 40%;" /></p>
 
-<div class="desc"><b>Fig.8 Analysis of relative mRNA-β-catenin expression level in sEVs </b>. HEK-293T was co-transfected with C/Dbox-mRNA-β-catenin-expressing plasmids and CD63-L7Ae-expressing plasmids (β-catenin). Cell culture medium was collected 36h later for sEVs purification and their total RNA was harvested for quantitative RT-PCR.</div>
+<div class="desc"><b>Fig.8 Analysis of relative mRNA-β-catenin expression level in sEVs.</b> HEK-293T was co-transfected with C/Dbox-mRNA-β-catenin-expressing plasmids and CD63-L7Ae-expressing plasmids (β-catenin). Cell culture medium was collected 36h later for sEVs purification and their total RNA was harvested for quantitative RT-PCR. </div>
 
 
 
@@ -160,17 +152,17 @@ We comprehensively evaluated the EV yields and sample purities of three most pop
 
 Namely, we performed particle size analysis of sEVs using NanoSight. To assess the purity of the sEVs, we counted the number of particles per microgram of protein. The most common impurities in sEVs extraction are soluble proteins outside the vesicles, so the number of particles per microgram of protein can reflect the purity of sEVs. The results showed that the particle size of sEVs extracted by TFF/BE-SEC is mostly concentrated within 50-200 nm, with the highest number of particles per microgram protein and the highest surface marker abundance, indicating the highest purity. Meanwhile, TFF/BE-SEC can extract sEVs from at least 200 ml cell culture media each time, while UC and EIK take longer or even require multiple experiments to process the same amount of culture media. In summary, TFF/BE-SEC is the best method for the large-scale purification of sEVs.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/compare-three-isolation-methods.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/compare-three-isolation-methods.png" alt="img" style="width: 100%;" /></p>
 
-<div class="desc"><b>Fig.9 Characterization of sEVs extracted by three methods.</b> Cell culture medium of HEK-293T was harvested and sEVs were purified by three methods (UC, EIK and TFF/BE-SEC).  <b>A:</b> Size distribution of sEVs extracted by three methods determined by NTA. <b>B:</b> Analysis of total protein of sEVs extracted by three methods by BCA. <b>C:</b> Number of particles per microgram of protein for sEVs isolated by the three methods. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.</div>
+<div class="desc"><b>Fig.9 Characterization of sEVs extracted by three methods.</b> Cell culture medium of HEK-293T was harvested and sEVs were purified by three methods (UC, EIK and TFF/BE-SEC). <b>A:</b> Size distribution of sEVs extracted by three methods determined by NTA. <b>B:</b> Analysis of total protein of sEVs extracted by three methods by BCA. <b>C:</b> Number of particles per microgram of protein for sEVs isolated by the three methods. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane. </div>
 
 
 
 We noted that the flow through collected from BE-SEC column could be divided into three parts. To further investigate which part contains sEVs with the highest purity, we collected them respectively for downstream analysis. As indicated in Fig.10, sEVs from Period 2 are the purest.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/different-period-of-be-sec.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/different-period-of-be-sec.png" alt="img" style="width: 100%;" /></p>
 
-<div class="desc"><b>Fig.10 Characterization of sEVs collected from piecewise BE-SEC.</b> Cell culture medium of HEK-293T was harvested and sEVs were purified by TFF/BE-SEC immediately. <b>A:</b> The process picture obtained when purifying sEVs by BE-SEC. The purple line is UV280, which divided the whole flow through into three sections. <b>B:</b> Size distribution of extracellular vesicles from each of the three sections determined by NTA. <b>C:</b> Number of particles per section as a percentage of the total number of particles. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.</div>
+<div class="desc"><b>Fig.10 Characterization of sEVs collected from piecewise BE-SEC.</b> Cell culture medium of HEK-293T was harvested and sEVs were purified by TFF/BE-SEC immediately. <b>A:</b> The process picture obtained when purifying sEVs by BE-SEC. The purple line is UV280, which divided the whole flow through into three sections. <b>B:</b> Size distribution of extracellular vesicles from each of the three sections determined by NTA. <b>C:</b> Number of particles per section as a percentage of the total number of particles. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.
 
 
 
@@ -178,7 +170,7 @@ We noted that the flow through collected from BE-SEC column could be divided int
 
 We expected to prove that our therapeutic sEVs (which load with 5αR-siRNA-1, Piezo1-siRNA-5, and mRNA-β-catenin) can inhibit apoptosis of DPC in the presence of androgen. Thus, we added testosterone propionate (TP) to the cell culture medium and co-cultured therapeutic sEVs with DPC for 30h. Then the apoptotic status of DPC was detected using Annexin V-FITC Apoptosis Detection Kit (from Beyoncé) by flow cytometry. As shown in Fig.11, TP can induce apoptosis, but apoptosis was significantly inhibited after the addition of sEVs. These findings indicated that our sEVs can be used as a treatment option and may have therapeutic implications for patients with AGA.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/apoptosis-detection.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/apoptosis-detection.png" alt="img" style="width: 90%;" /></p>
 
 <div class="desc"><b>Fig.11 Cell fractionation by flow cytometry.</b> FACS-recorded apoptosis in DPC after different treatment. The cells were stained with Annexin V-FITC and PI. </div>
 

@@ -14,95 +14,123 @@ import "papercss"
 
 const title = `Project`
 const markdown = `
-# Treatment of Alopecia by Genetically Engineered Small Extracellular Vesicles
+# Engineering success	
 
 ## 1. Overview
 
 It has been shown in the literature that inhibition of 5α-reductase (5αR) can reduce testosterone’s conversion to dihydrotestosterone (DHT). Excess DHT shortens anagen and causes hair follicles to enter catagen in advance, resulting in hair loss. [1] When activated by mechanosensory signals, Piezo1 can cause hair follicle stem cells (HFSC) depletion, which is often observed in AGA. [2] Wnt/β-catenin signaling pathway is associated with hair regeneration.[3] 
 
-Therefore, we designed and constructed 14 plasmids, namely pcDNA3.1–siRNA(5αR)(1-6)-mCherry, pcDNA3.1–siRNA(Piezo1)(1-6)-mCherry, pcDNA3.1-Box CD mini-beta catenin-mCherry and pcDNA3.1-CD63-L7Ae-mCherry. For siRNA encoding plasmids, we transfected them into RM-1 cells to test their efficacy. Then we transfected the most efficient into 293T cells to gain therapeutic sEVs. 
+Therefore, we designed and constructed 14 plasmids, namely pcDNA3.1–siRNA(5αR)(1~6)-mCherry, pcDNA3.1–siRNA(Piezo1)(1~6)-mCherry, pcDNA3.1-Box CD mini-beta catenin-mCherry and pcDNA3.1-CD63-L7Ae-mCherry. For siRNA encoding plasmids, we transfected them into RM-1 cells to test their efficacy. Then we transfected the most efficient into 293T cells to gain therapeutic sEVs. 
 
 Theoretically, these therapeutic sEVs can reach damaged follicles and release the contained 5αR-siRNA, Piezo1-siRNA, and mRNA (β-catenin). Then DHT will be dramatically decreased and the activation of Piezo1 will be cut off. β-catenin will activate the Wnt pathway to promote the proliferation of follicles. 
 
 With the above three treatments, hair growth should be promoted.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/mechanism-of-si-and-mr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/mechanism-of-si-and-mr.png" alt="img" style="width: 80%;" /></p>
 
-**Fig.1 Molecular mechanisms for the treatment of AGA** (Created with BioRender.com)
-
-
-
-According to the design of the project, we finally designed four parts: C/Dbox-β-catenin ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)), CD63-L7Ae ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046)), 5αR-siRNA-1 ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048)) and Piezo1 ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173058)). Through the following series of experiments, we have proved that these two parts are effective and can be used for treatment.
+<div class="desc"><b>Fig.1 Molecular mechanisms for the treatment of AGA</b> (Created with BioRender.com)</div>
 
 
 
-## 2. Extraction of plasmids DNA
+For the first time in the iGEM competition, our team designed a plasmid that expresses β-catenin ([BBa_K4173021](http://parts.igem.org/Part:BBa_K4173021)), a protein that enhances the Wnt/β-catenin pathway and thus promotes cell proliferation. The plasmid was experimentally validated to express the mRNA of β-catenin *in vitro*. We also designed six siRNAs that can inhibit 5α reductase and six siRNAs that inhibit the expression of the stress-activated ion channel Piezo1. After a series of validation experiments, we screened the most effective siRNAs, 5αR-siRNA-1 ([BBa_K4173009](http://parts.igem.org/Part:BBa_K4173009)) and Piezo1-siRNA-5 ([BBa_K4173019](http://parts.igem.org/Part:BBa_K4173019)).
+
+After designing the siRNAs, we enabled them to be wrapped into sEVs by adding components to both ends of the siRNA sequence and inserting it into the plasmid expression vector pcDNA3.1-mCherry ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048) and [BBa_K4173058](http://parts.igem.org/Part:BBa_K4173049)), and we also verified the validity of the sequence by experiment. We modified the mRNA of β-catenin by adding a C/D box RNA at one end ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)) and designed specific CD63-L7Ae fusion protein ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046)).  CD63 is one of the most widely used exosome markers with n-terminal and c-terminal intracellular structural domains. L7Ae, the 60S large ribosomal subunit of the archaeal ribosomal protein 7Ae. The target protein can be captured and kept in close contact with L7Ae through the interaction of L7Ae with the C/D box RNA structure added at the UTR of the reporter gene. When L7Ae binds to the c-terminus of CD63, the target protein can be immobilized on the membrane of exosomes. Finally, CD63-L7Ae can serve as an active packaging device for specific RNA entry into sEVs. We have also demonstrated experimentally that β-catenin can be encapsulated into sEVs.
+
+
+
+## 2. Plasmids Design
+
+ On the NCBI webpage, we designed siRNAs for 5αR and Piezo1 and found the gene sequences we need (β-catenin, L7Ae, CD63). Then we used SnapGene to load the target sequences into the plasmid vector pcDNA3.1-mCherry. Finally we designed and constructed 14 plasmids.
+
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/plasmids-design.png" alt="img" style="width: 80%;" /></p>
+
+<div class="desc"><b>Fig.2 Plasmids design.</b> (The final 4 plasmids were used as examples.)</div>
+
+
+
+## 3. Extraction of plasmids DNA
 
 We finally designed four parts:5aR-siRNA-1, Piezo1-siRNA-5, C/Dbox-β-catenin and CD63-L7Ae. Based on our experimental results, we have proved that these four parts can efficiently reduce/increase the expression level of target genes and their siRNA/mRNA can be loaded into sEVs to exert therapeutic effect.
 
 We ordered the plasmids from GenScript and transferred them into E. coli DH5α strain by heat shock and coated in LB plates containing ampicillin. On the second day, we selected suitable colonies for amplification and preservation. Plasmid DNA was extracted using Omega endo-free plasmid mini kit and verified by agarose gel electrophoresis.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/plasmids.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/plasmids.png" alt="img" style="width: 40%;" /></p>
 
-**Fig.2 Agarose gel electrophoresis of siRNA-expressing plasmids**
-
-
+<div class="desc"><b>Fig.3 Agarose gel electrophoresis of siRNA-expressing plasmids</b></div>
 
 
 
-## 3. Verify whether mRNA-β-catenin can transcribe β-catenin
+## 4. For pcDNA3.1--box CD mini-β catenin-mCherry ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)) and pcDNA3.1-CD63-L7Ae-mCherry ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046))
+
+
+
+### 4.1 Verify whether mRNA-β-catenin can transcribe β-catenin
 
 The plasmid pcDNA3.1-box CD mini-β catenin-mCherry was transfected into HEK-293T, and the total cellular RNAs were used for RT-qPCR to verify the expression level of β-catenin mRNA. The result indicated that our plasmid could express β-catenin.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/beta-catenin-expression-in-293t-qpcr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/beta-catenin-expression-in-293t-qpcr.png" alt="img" style="width: 40%;" /></p>
 
-**Fig.3 Analysis of relative mRNA-β-catenin expression level by RT-qPCR.** HEK-293T was transfected with C/Dbox-mRNA-β-catenin-expressing plasmids (β-catenin) and empty plasmids (NC). Total RNA was harvested 30h later for quantitative RT-PCR to analyze the relative expression level of mRNA-β-catenin. 
+<div class="desc"><b>Fig.4 Analysis of relative mRNA-β-catenin expression level by RT-qPCR.</b> HEK-293T was transfected with C/Dbox-mRNA-β-catenin-expressing plasmids (β-catenin) and empty plasmids (NC). Total RNA was harvested 30h later for quantitative RT-PCR to analyze the relative expression level of mRNA-β-catenin. </div>
 
 
 
-## 4. Verifying whether mRNA-β-catenin can be embedded in sEVs
+### 4.2 Verifying whether mRNA-β-catenin can be embedded in sEVs
 
 We co-transfected the two plasmids (pcDNA3.1-box CD mini-β catenin-mCherry and pcDNA3.1-CD63-L7Ae-mCherry) into HEK-293T and collected sEVs from cell culture medium. The total RNA of the specific sEVs was extracted for RT-qPCR to detect mRNA-β-catenin. The result demonstrated that our approach of wrapping mRNA-β-catenin into sEVs is feasible.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/mrna-beta-in-sevs.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/mrna-beta-in-sevs.png" alt="img" style="width: 40%;" /></p>
 
-**Fig.4 Analysis of relative mRNA-β-catenin expression level in sEVs **. HEK-293T was co-transfected with C/Dbox-mRNA-β-catenin-expressing plasmids and CD63-L7Ae-expressing plasmids (β-catenin). Cell culture medium was collected 36h later for sEVs purification and their total RNA was harvested for quantitative RT-PCR. 
+<div class="desc"><b>Fig.5 Analysis of relative mRNA-β-catenin expression level in sEVs.</b> HEK-293T was co-transfected with C/Dbox-mRNA-β-catenin-expressing plasmids and CD63-L7Ae-expressing plasmids (β-catenin). Cell culture medium was collected 36h later for sEVs purification and their total RNA was harvested for quantitative RT-PCR. </div>
 
 
 
-## 5. Screen the most effective 5αR-siRNA
+## 5. For pcDNA3.1-5αR-siRNA-1-mCherry ([BBa_K4173048](http://parts.igem.org/Part:BBa_K4173048)) and pcDNA3.1-Piezo1-siRNA-5-mCherry ([BBa_K4173058](http://parts.igem.org/Part:BBa_K4173049))
+
+### 5.1 Screen the most effective 5αR-siRNA
 
 We respectively transfected plasmids of 5αR-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that siRNA-5αR-1 was effective and could reduce the expression of 5αR mRNA by nearly 80 percent. This result indicates that our siRNA can successfully knock down the expression of 5αR.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/sirna-5ar-qpcr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/sirna-5ar-qpcr.png" alt="img" style="width: 80%;" /></p>
 
-**Fig.5 Analysis of the inhibitory effect of different siRNAs on 5αR by RT-qPCR.** RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,2,3,4,5,6). Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of 5αR mRNA.
+<div class="desc"><b>Fig.6 Analysis of the inhibitory effect of different siRNAs on 5αR by RT-qPCR.</b> RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,2,3,4,5,6). Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of 5αR mRNA.</div>
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/wb-5ar-sirna.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/wb-5ar-sirna.png" alt="img" style="width: 80%;" /></p>
 
-**Fig.6 Analysis of the inhibitory effect of different siRNAs on 5αR by WB.** RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,4,5,6) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-5αR and anti-GAPDH antibodies (equal GAPDH band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative 5αR protein expression level.
+<div class="desc"><b>Fig.7 Analysis of the inhibitory effect of different siRNAs on 5αR by WB.</b> RM-1 cells were transfected with 5αR-siRNA-expressing plasmids (5αR-siRNA-1,4,5,6) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-5αR and anti-GAPDH antibodies (equal GAPDH band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative 5αR protein expression level.</div>
 
 
 
-## 6. Screen the most effective Piezo1-siRNA
+### 5.2 Screen the most effective Piezo1-siRNA
 
 We respectively transfected plasmids of Piezo1-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that Piezo1-siRNA-5 was the most effective and could reduce the expression of Pizeo1 mRNA by nearly 70 percent. This result indicated that our siRNA can successfully knock down the expression of Piezo1.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/sirna-piezo1-qpcr.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/sirna-piezo1-qpcr.png" alt="img" style="width: 80%;" /></p>
 
-**Fig.7 Analysis of the inhibitory effect of different siRNAs on Piezo1** **by RT-qPCR.** RM-1 RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-1,2,3,4,5,6) or empty plasmid. Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of Piezo1 mRNA.![img](https://static.igem.wiki/teams/4173/wiki/project/wb-piezo1-sirna.png)
+<div class="desc"><b>Fig.8 Analysis of the inhibitory effect of different siRNAs on Piezo1 by RT-qPCR.</b> RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-1,2,3,4,5,6) or empty plasmid. Total RNA was harvested 30h later. Quantitative RT-PCR was used to analyze relative expression level of Piezo1 mRNA.</div>
 
-**Fig.8 Analysis of the inhibitory effect of different siRNAs on Piezo1 by WB.** RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-4,5) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-Piezo1 and anti-Tubulin antibodies (equal Tubulin band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative Piezo1 protein expression level.
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/wb-piezo1-sirna.png" alt="img" style="width: 80%;" /></p>
+
+<div class="desc"><b>Fig.9 Analysis of the inhibitory effect of different siRNAs on Piezo1 by WB.</b> RM-1 cells were transfected with Piezo1-siRNA-expressing plasmids (Piezo1-siRNA-4,5) or empty plasmid (NC). Total protein was harvested 36h later for western blotting with anti-Piezo1 and anti-Tubulin antibodies (equal Tubulin band densities indicate similar protein levels). The grayscale analysis of WB results by ImageJ visualizes relative Piezo1 protein expression level.</div>
 
 
 
-## 7. Our therapeutic sEVs can inhibit the apoptosis of DPC induced by TP
+### 5.3 Verify the presence of siRNA in sEVs
+
+After screening out the effective siRNAs (5αR-siRNA-1 and Piezo1-siRNA-5), we transfected the corresponding plasmids into HEK-293T and purified sEVs from cell culture medium. Then we conducted RT-qPCR utilizing total RNAs of the specific sEVs and proved that the sEVs do have the siRNAs we need. 
+
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/sevs-sirna.png" alt="img" style="width: 80%;" /></p>
+
+<div class="desc"><b>Fig.10 Analysis of relative siRNAs expression level in sEVs by RT-qPCR.</b> HEK-293T cells were co-transfected with 5αR-siRNA-1-expressing plasmids and Piezo1-siRNA-5-expressing plasmids. SEVs were purified 36h later and sEVs’ total RNA was harvested for quantitative RT-PCR to analyze the relative expression level of 5αR-siRNA-1 or Piezo1-siRNA-5.</div>
+
+
+
+## 6. Our therapeutic sEVs can inhibit the apoptosis of DPC induced by TP
 
 We expected to prove that our therapeutic sEVs (which load with 5αR-siRNA-1, Piezo1-siRNA-5, and mRNA-β-catenin) can inhibit apoptosis of DPC in the presence of androgen. Thus, we added testosterone propionate (TP) to the cell culture medium and co-cultured therapeutic sEVs with DPC for 30h. Then the apoptotic status of DPC was detected using Annexin V-FITC Apoptosis Detection Kit (from Beyoncé) by flow cytometry. As shown in Fig.9, TP can induce apoptosis, but apoptosis was significantly inhibited after the addition of sEVs. These findings indicated that our sEVs can be used as a treatment option and may have therapeutic implications for patients with AGA.
 
-![img](https://static.igem.wiki/teams/4173/wiki/project/apoptosis-detection.png)
+<p><img src="https://static.igem.wiki/teams/4173/wiki/project/apoptosis-detection.png" alt="img" style="width: 90%;" /></p>
 
-**Fig.9 Cell fractionation by flow cytometry.** FACS-recorded apoptosis in DPC after different treatment. The cells were stained with Annexin V-FITC and PI. 
+<div class="desc"><b>Fig.11 Cell fractionation by flow cytometry.</b> FACS-recorded apoptosis in DPC after different treatment. The cells were stained with Annexin V-FITC and PI. </div>
 
 
 

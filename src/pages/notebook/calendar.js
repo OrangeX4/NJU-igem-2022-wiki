@@ -14,7 +14,7 @@ import "papercss"
 
 const title = `Notebook`
 const markdown = `
-# Calendar:
+# Calendar
 
 ## January to February
 
