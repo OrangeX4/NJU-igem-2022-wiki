@@ -24,7 +24,7 @@ According to literature, inhibition of 5α-reductase (5αR) can reduce testoster
 
 Based on this knowledge, we planned to down-regulate 5aR and piezo1 and up-regulate β-catenin, hoping to find a brand-new solution to AGA.
 
-We designed and constructed 14 plasmids, namely **pcDNA3.1–siRNA(5αR)(1~6)-mCherry, pcDNA3.1–siRNA(Piezo1)(1~6)-mCherry, pcDNA3.1-Box CD mini-mRNA (β-catenin)-mCherry and pcDNA3.1-L7Ae-G8Linker-CD63-mCherry**. 
+We designed and constructed 14 plasmids, namely **pcDNA3.1–siRNA(5αR)(1-6)-mCherry, pcDNA3.1–siRNA(Piezo1)(1-6)-mCherry, pcDNA3.1-Box CD mini-mRNA (β-catenin)-mCherry and pcDNA3.1-L7Ae-G8Linker-CD63-mCherry**. 
 
 For siRNA-encoding plasmids, we transfected them into RM-1 cells to test their inhibitory effect on target genes and the encapsulation efficiency of corresponding siRNAs into sEVs. 
 
@@ -102,7 +102,7 @@ Wnt is a classical gene that promotes cell proliferation, and studies have shown
 
 
 
-## 5. sEVs’ Large-scale purification technique -TFF/BE-SEC
+## 5. sEVs’ Large-scale purification technique: TFF/BE-SEC
 
 The purification of sEVs is a challenging endeavor due to their small size. Currently, a plethora of different isolation methods have been described but a standardized method is still missing.[15] And almost every common methods have drawbacks in yield and purity, causing it’s not suitable for the clinical setting. We found new purification techniques —— Tangential Flow Filtration and Bind-elute size exclusion Chromatography (TFF/BE-SEC), and compared them with the two commonly used methods (Differential Centrifugation and Precipitation with Ultrafiltration), proving TFF/BE-SEC has irreplaceable advantages in yield, purity, and stability. 
 

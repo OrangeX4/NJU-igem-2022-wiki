@@ -15,12 +15,20 @@ function Nav() {
           <li><Link to="/project/description/">Description</Link></li>
           <li><Link to="/project/design/">Design</Link></li>
           <li><Link to="/project/result/">Result</Link></li>
-          <li><Link to="/project/model/">Model</Link></li>
           <li><Link to="/project/implementation/">Implementation</Link></li>
           <li><Link to="/project/proof/">Proof of Concept</Link></li>
           <li><Link to="/project/contribution/">Contribution</Link></li>
           <li><Link to="/project/engineering/">Engineering Success</Link></li>
           <li><Link to="/project/safety/">Safety</Link></li>
+        </ul>
+      </li>
+      <li className="dropdown">
+        <div className="dropdown-title">Model</div>
+        <ul className="dropdown-menu border border-4">
+          <li><Link to="/model/epidemiology-analysis/">Epidemiology Analysis</Link></li>
+          <li><Link to="/model/questionnaire-analysis/">Questionnaire Analysis</Link></li>
+          <li><Link to="/model/consumption-level-analysis/">Consumption Level Analysis</Link></li>
+          <li><Link to="/model/extraction-technique-model/">Extraction Technique Model</Link></li>
         </ul>
       </li>
       <li className="dropdown">

@@ -44,7 +44,7 @@ Piezo1, a stress-activated ion channel on the surface of hair follicle stem cell
 
 <p><img src="https://static.igem.wiki/teams/4173/wiki/project/background.png" alt="img" style="width: 80%;" /></p>
 
-<div class="desc"><b>Fig.2 “Prevalence of alopecia by age” and “Percentage of Alopecia by degree”</b> (Created with BioRender.com)</div>
+<div class="desc"><b>Fig.3 Mechanism of androgenic alopecia</b> (Created with BioRender.com)</div>
 
 
 
@@ -56,7 +56,7 @@ Among them, finasteride can inhibit 5α-reductase and prevent the conversion of 
 
 However, these existing treatment methods have some shortcomings. 
 
-As an inhibitor of 5αR, the oral drug finasteride [[AH1\]](#_msocom_1) can bring about sexual dysfunction. Because finasteride passes through the blood circulation of the whole body, it may inhibit the 5αR in other parts of the body and affect the normal function of the organism, such as erectile and ejaculatory dysfunction and loss of libido. In addition to sexual dysfunction, patients with post finasteride syndrome (PFS) also suffer from psychological discomfort. Other symptoms reported by PFS patients are a reduction in self-confidence, decreased initiative and difficulty in concentration, forgetfulness or loss of short-term memory, irritability, suicidal thoughts, anxiety, panic attack, and sleep problems. [10] These side effects can last for years and do not go away immediately after stopping the drug. At the same time, it is less effective in promoting hair growth. Finasteride stops hair loss in most men and results in partial regrowth in 66% of patients. And women are not recommended to use finasteride.
+As an inhibitor of 5αR, the oral drug finasteride can bring about sexual dysfunction. Because finasteride passes through the blood circulation of the whole body, it may inhibit the 5αR in other parts of the body and affect the normal function of the organism, such as erectile and ejaculatory dysfunction and loss of libido. In addition to sexual dysfunction, patients with post finasteride syndrome (PFS) also suffer from psychological discomfort. Other symptoms reported by PFS patients are a reduction in self-confidence, decreased initiative and difficulty in concentration, forgetfulness or loss of short-term memory, irritability, suicidal thoughts, anxiety, panic attack, and sleep problems. [10] These side effects can last for years and do not go away immediately after stopping the drug. At the same time, it is less effective in promoting hair growth. Finasteride stops hair loss in most men and results in partial regrowth in 66% of patients. And women are not recommended to use finasteride.
 
 The exact molecular mechanism by which Minoxidil promotes hair growth remains unclear. It was originally an antihypertensive drug for the treatment of cardiovascular disease and was found to promote hair growth before it became a specialized drug for the treatment of AGA. So people with cardiovascular disease are not allowed to use minoxidil. Minoxidil has cutaneous adverse effects, with the most common complaints being scalp pruritus, scalp scaling, and hypertrichosis. Minoxidil treatment may be followed by a temporary shedding period at the beginning, which will cause severe hair loss, some patients do not want to go through this period, and some patients do not recover effectively after hair loss. Also, hypertrichosis is reported in about one-fifth of patients with minoxidil, and although this side effect is considered by some to be manageable, it still needs to be taken seriously.[11]
 
@@ -92,9 +92,9 @@ Also, we transformed the delivery method from topical application to microneedle
 
 ## 5. Experimental results show a promising future for our project
 
-To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to [**Results**]([NJU-China/Project - 2022.igem.wiki](https://2022.igem.wiki/nju-china/project/result/)).
+To demonstrate the efficacy of our project, we conducted a series of experiments *in vitro* and gained convincing data and results to verify the effectiveness and safety of our project. For detailed information, please go to [**Results**](https://2022.igem.wiki/nju-china/project/result/).
 
-
+ 
 
 **Reference:**
 

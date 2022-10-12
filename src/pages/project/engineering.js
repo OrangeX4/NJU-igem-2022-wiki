@@ -20,7 +20,7 @@ const markdown = `
 
 It has been shown in the literature that inhibition of 5α-reductase (5αR) can reduce testosterone’s conversion to dihydrotestosterone (DHT). Excess DHT shortens anagen and causes hair follicles to enter catagen in advance, resulting in hair loss. [1] When activated by mechanosensory signals, Piezo1 can cause hair follicle stem cells (HFSC) depletion, which is often observed in AGA. [2] Wnt/β-catenin signaling pathway is associated with hair regeneration.[3] 
 
-Therefore, we designed and constructed 14 plasmids, namely pcDNA3.1–siRNA(5αR)(1~6)-mCherry, pcDNA3.1–siRNA(Piezo1)(1~6)-mCherry, pcDNA3.1-Box CD mini-beta catenin-mCherry and pcDNA3.1-CD63-L7Ae-mCherry. For siRNA encoding plasmids, we transfected them into RM-1 cells to test their efficacy. Then we transfected the most efficient into 293T cells to gain therapeutic sEVs. 
+Therefore, we designed and constructed 14 plasmids, namely pcDNA3.1–siRNA(5αR)(1-6)-mCherry, pcDNA3.1–siRNA(Piezo1)(1-6)-mCherry, pcDNA3.1-Box CD mini-beta catenin-mCherry and pcDNA3.1-CD63-L7Ae-mCherry. For siRNA encoding plasmids, we transfected them into RM-1 cells to test their efficacy. Then we transfected the most efficient into 293T cells to gain therapeutic sEVs. 
 
 Theoretically, these therapeutic sEVs can reach damaged follicles and release the contained 5αR-siRNA, Piezo1-siRNA, and mRNA (β-catenin). Then DHT will be dramatically decreased and the activation of Piezo1 will be cut off. β-catenin will activate the Wnt pathway to promote the proliferation of follicles. 
 
@@ -60,11 +60,11 @@ We ordered the plasmids from GenScript and transferred them into E. coli DH5α s
 
 
 
-## 4. For pcDNA3.1--box CD mini-β catenin-mCherry ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)) and pcDNA3.1-CD63-L7Ae-mCherry ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046))
+## 4. For pcDNA3.1-box CD mini-β catenin-mCherry ([BBa_K4173045](http://parts.igem.org/Part:BBa_K4173045)) and pcDNA3.1-CD63-L7Ae-mCherry ([BBa_K4173046](http://parts.igem.org/Part:BBa_K4173046))
 
 
 
-### 4.1 Verify whether mRNA-β-catenin can transcribe β-catenin
+### 4.1 Verify whether plasmid can express β-catenin
 
 The plasmid pcDNA3.1-box CD mini-β catenin-mCherry was transfected into HEK-293T, and the total cellular RNAs were used for RT-qPCR to verify the expression level of β-catenin mRNA. The result indicated that our plasmid could express β-catenin.
 

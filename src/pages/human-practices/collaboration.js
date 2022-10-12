@@ -16,7 +16,7 @@ const title = `Human Practice`
 const markdown = `
 # Collaboration
 
-## Nanjing IGEM Association Meetup in May
+## Nanjing iGEM Association Meetup in May
 
 Nanjing iGEM Association was established by the NJU-China iGEM Team in 2021 and joined by teams from several other universities in Nanjing, with the aim to build up a platform where communication and collaboration of local teams could be facilitated. On the 4th of June, 2022, the Nanjing iGEM Team Exchange Conference was held online by NJU-China and attended by NJMU-China, NJTech-China, NAU-China, CPU-China, and Nanjing-China. 
 

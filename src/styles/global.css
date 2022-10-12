@@ -48,18 +48,18 @@
 
 .home-container>.header>.icon {
   width: 20%;
-  top: 10%;
+  top: 15%;
   left: 20%;
 }
 
 .home-container>.header>.title {
   width: 40%;
-  top: 15%;
+  top: 20%;
   right: 20%;
 }
 .home-container>.header>.description {
   width: 40%;
-  top: 30%;
+  top: 35%;
   right: 20%;
 }
 
