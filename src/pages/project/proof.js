@@ -162,7 +162,7 @@ We noted that the flow through collected from BE-SEC column could be divided int
 
 <p><img src="https://static.igem.wiki/teams/4173/wiki/project/different-period-of-be-sec.png" alt="img" style="width: 100%;" /></p>
 
-<div class="desc"><b>Fig.10 Characterization of sEVs collected from piecewise BE-SEC.</b> Cell culture medium of HEK-293T was harvested and sEVs were purified by TFF/BE-SEC immediately. <b>A:</b> The process picture obtained when purifying sEVs by BE-SEC. The purple line is UV280, which divided the whole flow through into three sections. <b>B:</b> Size distribution of extracellular vesicles from each of the three sections determined by NTA. <b>C:</b> Number of particles per section as a percentage of the total number of particles. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.
+<div class="desc"><b>Fig.10 Characterization of sEVs collected from piecewise BE-SEC.</b> Cell culture medium of HEK-293T was harvested and sEVs were purified by TFF/BE-SEC immediately. <b>A:</b> The process picture obtained when purifying sEVs by BE-SEC. The purple line is UV280, which divided the whole flow through into three sections. <b>B:</b> Size distribution of extracellular vesicles from each of the three sections determined by NTA. <b>C:</b> Number of particles per section as a percentage of the total number of particles. <b>D:</b> Western blot analysis of sEVs’ surface markers (CD9, CD63 and TSG101). An equal amount of total protein was loaded in each lane.</div>
 
 
 
