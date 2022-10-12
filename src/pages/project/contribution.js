@@ -34,11 +34,11 @@ On the NCBI web page, we designed the required murine siRNA for 5αR. The follow
 
 5αR-siRNA-3: AACAAAGUGUGAAAAAUGCAA
 
-5αR-siRNA-4: TCAGAAAGATCACCGCTGATA
+5αR-siRNA-4: UCAGAAAGAUCACCGCUGAUA
 
-5αR-siRNA-5: TAAACCAGGTAATAGGCTTGC
+5αR-siRNA-5: UAAACCAGGUAAUAGGCUUGC
 
-5αR-siRNA-6: AAACAAGCCACCTTGTGGGAT
+5αR-siRNA-6: AAACAAGCCACCUUGUGGGAU
 
 We respectively transfected plasmids of 5αR-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that siRNA-5αR-1 was effective and could reduce the expression of 5αR mRNA by nearly 80 percent. This result indicates that our siRNA can successfully knock down the expression of 5αR.
 
@@ -64,11 +64,11 @@ Piezo1-siRNA-2: AGUAUAGGCAAAUGAGAUGGC
 
 Piezo1-siRNA-3: AUAAAUGGUGUCUGAUAGCAG
 
-Piezo1-siRNA-4: TATGTCTTCATCGTCGTCATC
+Piezo1-siRNA-4: UAUGUCUUCAUCGUCGUCAUC
 
-Piezo1-siRNA-5: TTCATCGTCGTCATCATCGTC
+Piezo1-siRNA-5: UUCAUCGUCGUCAUCAUCGUC
 
-Piezo1-siRNA-6: ATCATCGTCATCGTCATCATC
+Piezo1-siRNA-6: AUCAUCGUCAUCGUCAUCAUC
 
 We respectively transfected plasmids of Piezo1-siRNA into RM-1. Then we conducted RT-qPCR utilizing total cellular RNA and performed WB using total proteins. Finally, we found that Piezo1-siRNA-5 was the most effective and could reduce the expression of Pizeo1 mRNA by nearly 70 percent. This result indicated that our siRNA can successfully knock down the expression of Piezo1.
 
